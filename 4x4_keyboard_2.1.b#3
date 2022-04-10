@@ -1,29 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
-<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -35,8 +20,8 @@
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -47,20 +32,20 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -93,13 +78,13 @@
 <layer number="111" name="111" color="7" fill="1" visible="no" active="no"/>
 <layer number="112" name="tSilk" color="7" fill="1" visible="no" active="no"/>
 <layer number="113" name="IDFDebug" color="7" fill="1" visible="no" active="yes"/>
-<layer number="114" name="FRNTMAAT1" color="7" fill="1" visible="no" active="yes"/>
-<layer number="115" name="FRNTMAAT2" color="7" fill="1" visible="no" active="yes"/>
+<layer number="114" name="FRNTMAAT1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="115" name="FRNTMAAT2" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="no"/>
-<layer number="117" name="BACKMAAT1" color="7" fill="1" visible="no" active="yes"/>
+<layer number="117" name="BACKMAAT1" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
-<layer number="119" name="KAP_TEKEN" color="7" fill="1" visible="no" active="yes"/>
-<layer number="120" name="KAP_MAAT1" color="7" fill="1" visible="no" active="yes"/>
+<layer number="119" name="KAP_TEKEN" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="120" name="KAP_MAAT1" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="no"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="no"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="no"/>
@@ -108,18 +93,18 @@
 <layer number="126" name="_bNames" color="7" fill="1" visible="no" active="no"/>
 <layer number="127" name="_tValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="128" name="_bValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="129" name="top_silk" color="7" fill="1" visible="no" active="yes"/>
-<layer number="130" name="SMDSTROOK" color="7" fill="1" visible="no" active="yes"/>
+<layer number="129" name="top_silk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="130" name="SMDSTROOK" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="no"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="no"/>
-<layer number="133" name="bottom_silk" color="7" fill="1" visible="no" active="yes"/>
-<layer number="134" name="silk_top" color="7" fill="1" visible="no" active="yes"/>
-<layer number="135" name="silk_bottom" color="7" fill="1" visible="no" active="yes"/>
-<layer number="136" name="silktop" color="7" fill="1" visible="no" active="yes"/>
-<layer number="137" name="silkbottom" color="7" fill="1" visible="no" active="yes"/>
+<layer number="133" name="bottom_silk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="134" name="silk_top" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="135" name="silk_bottom" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="136" name="silktop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="137" name="silkbottom" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="144" name="DrillLegend" color="7" fill="1" visible="no" active="no"/>
-<layer number="145" name="DrillLegend_01-16" color="7" fill="1" visible="no" active="yes"/>
-<layer number="146" name="DrillLegend_01-20" color="7" fill="1" visible="no" active="yes"/>
+<layer number="145" name="DrillLegend_01-16" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="146" name="DrillLegend_01-20" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="151" name="HeatSink" color="14" fill="1" visible="no" active="no"/>
 <layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="no"/>
@@ -158,28 +143,26 @@
 <layer number="226" name="226bmp" color="7" fill="1" visible="no" active="yes"/>
 <layer number="227" name="227bmp" color="7" fill="1" visible="no" active="yes"/>
 <layer number="228" name="228bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="229" name="229bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="230" name="230bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="231" name="Eagle3D_PG1" color="7" fill="1" visible="no" active="yes"/>
-<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="no" active="yes"/>
-<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="no" active="yes"/>
+<layer number="231" name="Eagle3D_PG1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="248" name="Housing" color="7" fill="1" visible="no" active="no"/>
 <layer number="249" name="Edge" color="7" fill="1" visible="no" active="no"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 <layer number="254" name="OrgLBR" color="13" fill="1" visible="no" active="no"/>
-<layer number="255" name="Accent" color="7" fill="1" visible="no" active="yes"/>
+<layer number="255" name="Accent" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="69.52" y2="0" width="0" layer="20"/>
-<wire x1="69.52" y1="0" x2="69.52" y2="142.23" width="0" layer="20"/>
-<wire x1="69.52" y1="142.23" x2="0" y2="142.23" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="64.44" y2="0" width="0" layer="20"/>
+<wire x1="64.44" y1="0" x2="64.44" y2="142.23" width="0" layer="20"/>
+<wire x1="64.44" y1="142.23" x2="0" y2="142.23" width="0" layer="20"/>
 <wire x1="0" y1="142.23" x2="0" y2="0" width="0" layer="20"/>
 <dimension x1="0" y1="0" x2="0" y2="142.24" x3="97.79" y3="71.12" textsize="1.778" layer="1"/>
 <dimension x1="0" y1="146.05" x2="63.5" y2="146.05" x3="31.75" y3="-16.51" textsize="1.778" layer="1" precision="0"/>
-<dimension x1="0" y1="0" x2="0" y2="83.82" x3="77.47" y3="41.91" textsize="1.778" layer="1" precision="0"/>
-<dimension x1="0" y1="149.86" x2="68.58" y2="149.86" x3="34.29" y3="-25.4" textsize="1.778" layer="1" precision="0"/>
 </plain>
 <libraries>
 <library name="rcl">
@@ -1986,23 +1969,16 @@ design rules under a new name.</description>
 <param name="slThermalsForVias" value="0"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
+<param name="checkGrid" value="0"/>
 <param name="checkAngle" value="0"/>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="1"/>
-<param name="checkStop" value="0"/>
-<param name="checkValues" value="0"/>
-<param name="checkNames" value="1"/>
-<param name="checkWireStubs" value="1"/>
-<param name="checkPolygonWidth" value="0"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
 <autorouter>
 <pass name="Default">
 <param name="RoutingGrid" value="50mil"/>
-<param name="AutoGrid" value="1"/>
-<param name="Efforts" value="0"/>
-<param name="TopRouterVariant" value="1"/>
 <param name="tpViaShape" value="round"/>
 <param name="PrefDir.1" value="|"/>
 <param name="PrefDir.2" value="0"/>
@@ -2094,446 +2070,448 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="C1" library="rcl" package="C0603" value="0.1uF" x="40.4" y="126.06" smashed="yes" rot="R90">
-<attribute name="NAME" x="39.765" y="125.425" size="1.27" layer="25" rot="R90"/>
-<attribute name="POPULARITY" value="73" x="142" y="154" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="142" y="154" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="42.305" y="125.425" size="1.27" layer="27" rot="R90"/>
+<element name="C1" library="rcl" package="C0603" value="0.1uF" x="-27.94" y="101.6" smashed="yes">
+<attribute name="NAME" x="-28.575" y="102.235" size="1.27" layer="25"/>
+<attribute name="POPULARITY" value="73" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-28.575" y="99.695" size="1.27" layer="27"/>
 </element>
-<element name="C10" library="rcl" package="C0603" value="1.0uF" x="27.4" y="114.66" smashed="yes" rot="R90">
-<attribute name="NAME" x="26.765" y="114.025" size="1.27" layer="25" rot="R90"/>
-<attribute name="POPULARITY" value="73" x="129" y="168" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="129" y="168" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="29.305" y="114.025" size="1.27" layer="27" rot="R90"/>
+<element name="C10" library="rcl" package="C0603" value="1.0uF" x="-53.34" y="101.6" smashed="yes">
+<attribute name="NAME" x="-53.975" y="102.235" size="1.27" layer="25"/>
+<attribute name="POPULARITY" value="73" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-53.975" y="99.695" size="1.27" layer="27"/>
 </element>
-<element name="C12" library="rcl" package="C0603" value="22pF" x="15.4" y="122.04" smashed="yes" rot="R270">
-<attribute name="NAME" x="16.035" y="122.675" size="1.27" layer="25" rot="R270"/>
-<attribute name="POPULARITY" value="73" x="-86.2" y="56" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="-86.2" y="56" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="13.495" y="122.675" size="1.27" layer="27" rot="R270"/>
+<element name="C12" library="rcl" package="C0603" value="22pF" x="-66.04" y="101.6" smashed="yes">
+<attribute name="NAME" x="-66.675" y="102.235" size="1.27" layer="25"/>
+<attribute name="POPULARITY" value="73" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-66.675" y="99.695" size="1.27" layer="27"/>
 </element>
-<element name="C13" library="rcl" package="C0603" value="22pF" x="15.4" y="127.61" smashed="yes" rot="R90">
-<attribute name="NAME" x="14.765" y="126.975" size="1.27" layer="25" rot="R90"/>
-<attribute name="POPULARITY" value="73" x="117" y="200" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="117" y="200" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="17.305" y="126.975" size="1.27" layer="27" rot="R90"/>
+<element name="C13" library="rcl" package="C0603" value="22pF" x="-72.39" y="101.6" smashed="yes">
+<attribute name="NAME" x="-73.025" y="102.235" size="1.27" layer="25"/>
+<attribute name="POPULARITY" value="73" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-73.025" y="99.695" size="1.27" layer="27"/>
 </element>
-<element name="C2" library="TAJC226K025RNJ" package="CAPPM6032X280N" value="TAJC226K025RNJ" x="52.28" y="138.07" smashed="yes" rot="R180">
-<attribute name="AVAILABILITY" value="In Stock" x="-29" y="213" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value=" 22 µF Molded Tantalum Capacitors 25 V 2312 (6032 Metric) 1.4Ohm " x="-29" y="213" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="AVX Interconnect / Elco" x="-29" y="213" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MP" value="TAJC226K025RNJ" x="-29" y="213" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="56.09" y="136.03" size="1.27" layer="25" rot="R180"/>
-<attribute name="PACKAGE" value="2312 AVX Interconnect / Elco" x="-29" y="213" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PRICE" value="None" x="-29" y="213" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/TAJC226K025RNJ/?ref=eda" x="-29" y="213" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="56.09" y="141.38" size="1.27" layer="27" rot="R180"/>
+<element name="C2" library="TAJC226K025RNJ" package="CAPPM6032X280N" value="TAJC226K025RNJ" x="-81.28" y="74.93" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" 22 µF Molded Tantalum Capacitors 25 V 2312 (6032 Metric) 1.4Ohm " x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="AVX Interconnect / Elco" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="TAJC226K025RNJ" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-85.09" y="76.97" size="1.27" layer="25"/>
+<attribute name="PACKAGE" value="2312 AVX Interconnect / Elco" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/TAJC226K025RNJ/?ref=eda" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-85.09" y="71.62" size="1.27" layer="27"/>
 </element>
-<element name="C3" library="rcl" package="C0603" value="0.1uF" x="40.4" y="120.71" smashed="yes" rot="R90">
-<attribute name="NAME" x="39.765" y="120.075" size="1.27" layer="25" rot="R90"/>
-<attribute name="POPULARITY" value="73" x="142" y="155" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="142" y="155" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="42.305" y="120.075" size="1.27" layer="27" rot="R90"/>
+<element name="C3" library="rcl" package="C0603" value="0.1uF" x="-34.29" y="101.6" smashed="yes">
+<attribute name="NAME" x="-34.925" y="102.235" size="1.27" layer="25"/>
+<attribute name="POPULARITY" value="73" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-34.925" y="99.695" size="1.27" layer="27"/>
 </element>
-<element name="C5" library="rcl" package="C0603" value="1.0uF" x="27.6" y="133.64" smashed="yes" rot="R270">
-<attribute name="NAME" x="28.235" y="134.275" size="1.27" layer="25" rot="R270"/>
-<attribute name="POPULARITY" value="73" x="-74" y="93" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="-74" y="93" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="25.695" y="134.275" size="1.27" layer="27" rot="R270"/>
+<element name="C5" library="rcl" package="C0603" value="1.0uF" x="-40.64" y="101.6" smashed="yes">
+<attribute name="NAME" x="-41.275" y="102.235" size="1.27" layer="25"/>
+<attribute name="POPULARITY" value="73" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-41.275" y="99.695" size="1.27" layer="27"/>
 </element>
-<element name="C6" library="rcl" package="C0603" value="1.0uF" x="39.99" y="130.4" smashed="yes" rot="R180">
-<attribute name="NAME" x="40.625" y="129.765" size="1.27" layer="25" rot="R180"/>
-<attribute name="POPULARITY" value="73" x="-7" y="232" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="-7" y="232" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="40.625" y="132.305" size="1.27" layer="27" rot="R180"/>
+<element name="C6" library="rcl" package="C0603" value="1.0uF" x="-46.99" y="101.6" smashed="yes">
+<attribute name="NAME" x="-47.625" y="102.235" size="1.27" layer="25"/>
+<attribute name="POPULARITY" value="73" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-47.625" y="99.695" size="1.27" layer="27"/>
 </element>
-<element name="C7" library="rcl" package="C0603" value="10uF" x="43.4" y="131.31" smashed="yes" rot="R90">
-<attribute name="NAME" x="42.765" y="130.675" size="1.27" layer="25" rot="R90"/>
-<attribute name="POPULARITY" value="73" x="145" y="191" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="145" y="191" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="45.305" y="130.675" size="1.27" layer="27" rot="R90"/>
+<element name="C7" library="rcl" package="C0603" value="10uF" x="-59.69" y="101.6" smashed="yes">
+<attribute name="NAME" x="-60.325" y="102.235" size="1.27" layer="25"/>
+<attribute name="POPULARITY" value="73" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-60.325" y="99.695" size="1.27" layer="27"/>
 </element>
-<element name="CR1" library="M7 diode" package="SMA/DO-214AC_DTC" value="M7" x="41.06" y="135.97" smashed="yes">
-<attribute name="COPYRIGHT" value="Copyright (C) 2022 Ultra Librarian. All rights reserved." x="69" y="122" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="M7" x="69" y="122" size="1.778" layer="27" display="off"/>
-<attribute name="MFR_NAME" value="Diotec" x="69" y="122" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="37.7834" y="135.335" size="1.27" layer="27" ratio="6" rot="SR0"/>
-<attribute name="VALUE" x="39.3328" y="135.335" size="1.27" layer="21" ratio="6" rot="SR0"/>
+<element name="CR1" library="M7 diode" package="SMA/DO-214AC_DTC" value="M7" x="-27.94" y="13.97" smashed="yes">
+<attribute name="COPYRIGHT" value="Copyright (C) 2022 Ultra Librarian. All rights reserved." x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="M7" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MFR_NAME" value="Diotec" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-31.2166" y="13.335" size="1.27" layer="27" ratio="6" rot="SR0"/>
+<attribute name="VALUE" x="-29.6672" y="13.335" size="1.27" layer="21" ratio="6" rot="SR0"/>
 </element>
-<element name="D1" library="1N4148W-13-F" package="SOD3715X135N" value="1N4148W-13-F" x="61.31" y="89.6" smashed="yes">
-<attribute name="AVAILABILITY" value="In Stock" x="121" y="-0.57" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" Diode Standard 100 V 150mA Surface Mount SOD-123 " x="121" y="-0.57" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Diodes Inc." x="121" y="-0.57" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="1N4148W-13-F" x="121" y="-0.57" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="58.71" y="90.8" size="0.8128" layer="25"/>
-<attribute name="PACKAGE" value="SOD-123 Fairchild Semiconductor" x="121" y="-0.57" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="121" y="-0.57" size="1.778" layer="27" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/1N4148W-13-F/?ref=eda" x="121" y="-0.57" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="58.61" y="87.6" size="0.8128" layer="27"/>
+<element name="D1" library="1N4148W-13-F" package="SOD3715X135N" value="1N4148W-13-F" x="-59.69" y="90.17" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Diode Standard 100 V 150mA Surface Mount SOD-123 " x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Diodes Inc." x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="1N4148W-13-F" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-62.29" y="91.37" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="SOD-123 Fairchild Semiconductor" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/1N4148W-13-F/?ref=eda" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-62.39" y="88.17" size="0.8128" layer="27"/>
 </element>
-<element name="D10" library="1N4148W-13-F" package="SOD3715X135N" value="1N4148W-13-F" x="29.39" y="65.52" smashed="yes">
-<attribute name="AVAILABILITY" value="In Stock" x="84" y="-31" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" Diode Standard 100 V 150mA Surface Mount SOD-123 " x="84" y="-31" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Diodes Inc." x="84" y="-31" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="1N4148W-13-F" x="84" y="-31" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="26.79" y="66.72" size="0.8128" layer="25"/>
-<attribute name="PACKAGE" value="SOD-123 Fairchild Semiconductor" x="84" y="-31" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="84" y="-31" size="1.778" layer="27" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/1N4148W-13-F/?ref=eda" x="84" y="-31" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="26.69" y="63.52" size="0.8128" layer="27"/>
+<element name="D10" library="1N4148W-13-F" package="SOD3715X135N" value="1N4148W-13-F" x="-54.61" y="96.52" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Diode Standard 100 V 150mA Surface Mount SOD-123 " x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Diodes Inc." x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="1N4148W-13-F" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-57.21" y="97.72" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="SOD-123 Fairchild Semiconductor" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/1N4148W-13-F/?ref=eda" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-57.31" y="94.52" size="0.8128" layer="27"/>
 </element>
-<element name="D11" library="1N4148W-13-F" package="SOD3715X135N" value="1N4148W-13-F" x="29.5" y="43.52" smashed="yes">
-<attribute name="AVAILABILITY" value="In Stock" x="93" y="-53" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" Diode Standard 100 V 150mA Surface Mount SOD-123 " x="93" y="-53" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Diodes Inc." x="93" y="-53" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="1N4148W-13-F" x="93" y="-53" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="26.9" y="44.72" size="0.8128" layer="25"/>
-<attribute name="PACKAGE" value="SOD-123 Fairchild Semiconductor" x="93" y="-53" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="93" y="-53" size="1.778" layer="27" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/1N4148W-13-F/?ref=eda" x="93" y="-53" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="26.8" y="41.52" size="0.8128" layer="27"/>
+<element name="D11" library="1N4148W-13-F" package="SOD3715X135N" value="1N4148W-13-F" x="-63.5" y="96.52" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Diode Standard 100 V 150mA Surface Mount SOD-123 " x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Diodes Inc." x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="1N4148W-13-F" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-66.1" y="97.72" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="SOD-123 Fairchild Semiconductor" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/1N4148W-13-F/?ref=eda" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-66.2" y="94.52" size="0.8128" layer="27"/>
 </element>
-<element name="D12" library="1N4148W-13-F" package="SOD3715X135N" value="1N4148W-13-F" x="29.61" y="20.52" smashed="yes">
-<attribute name="AVAILABILITY" value="In Stock" x="102" y="-76" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" Diode Standard 100 V 150mA Surface Mount SOD-123 " x="102" y="-76" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Diodes Inc." x="102" y="-76" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="1N4148W-13-F" x="102" y="-76" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="27.01" y="21.72" size="0.8128" layer="25"/>
-<attribute name="PACKAGE" value="SOD-123 Fairchild Semiconductor" x="102" y="-76" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="102" y="-76" size="1.778" layer="27" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/1N4148W-13-F/?ref=eda" x="102" y="-76" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="26.91" y="18.52" size="0.8128" layer="27"/>
+<element name="D12" library="1N4148W-13-F" package="SOD3715X135N" value="1N4148W-13-F" x="-72.39" y="96.52" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Diode Standard 100 V 150mA Surface Mount SOD-123 " x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Diodes Inc." x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="1N4148W-13-F" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-74.99" y="97.72" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="SOD-123 Fairchild Semiconductor" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/1N4148W-13-F/?ref=eda" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-75.09" y="94.52" size="0.8128" layer="27"/>
 </element>
-<element name="D13" library="1N4148W-13-F" package="SOD3715X135N" value="1N4148W-13-F" x="11.72" y="20.52" smashed="yes">
-<attribute name="AVAILABILITY" value="In Stock" x="93" y="-76" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" Diode Standard 100 V 150mA Surface Mount SOD-123 " x="93" y="-76" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Diodes Inc." x="93" y="-76" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="1N4148W-13-F" x="93" y="-76" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="9.12" y="21.72" size="0.8128" layer="25"/>
-<attribute name="PACKAGE" value="SOD-123 Fairchild Semiconductor" x="93" y="-76" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="93" y="-76" size="1.778" layer="27" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/1N4148W-13-F/?ref=eda" x="93" y="-76" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="9.02" y="18.52" size="0.8128" layer="27"/>
+<element name="D13" library="1N4148W-13-F" package="SOD3715X135N" value="1N4148W-13-F" x="-81.28" y="96.52" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Diode Standard 100 V 150mA Surface Mount SOD-123 " x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Diodes Inc." x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="1N4148W-13-F" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-83.88" y="97.72" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="SOD-123 Fairchild Semiconductor" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/1N4148W-13-F/?ref=eda" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-83.98" y="94.52" size="0.8128" layer="27"/>
 </element>
-<element name="D14" library="1N4148W-13-F" package="SOD3715X135N" value="1N4148W-13-F" x="10.83" y="43.52" smashed="yes">
-<attribute name="AVAILABILITY" value="In Stock" x="101" y="-53" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" Diode Standard 100 V 150mA Surface Mount SOD-123 " x="101" y="-53" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Diodes Inc." x="101" y="-53" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="1N4148W-13-F" x="101" y="-53" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="8.23" y="44.72" size="0.8128" layer="25"/>
-<attribute name="PACKAGE" value="SOD-123 Fairchild Semiconductor" x="101" y="-53" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="101" y="-53" size="1.778" layer="27" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/1N4148W-13-F/?ref=eda" x="101" y="-53" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="8.13" y="41.52" size="0.8128" layer="27"/>
+<element name="D14" library="1N4148W-13-F" package="SOD3715X135N" value="1N4148W-13-F" x="-90.17" y="96.52" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Diode Standard 100 V 150mA Surface Mount SOD-123 " x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Diodes Inc." x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="1N4148W-13-F" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-92.77" y="97.72" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="SOD-123 Fairchild Semiconductor" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/1N4148W-13-F/?ref=eda" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-92.87" y="94.52" size="0.8128" layer="27"/>
 </element>
-<element name="D15" library="1N4148W-13-F" package="SOD3715X135N" value="1N4148W-13-F" x="10.94" y="65.52" smashed="yes">
-<attribute name="AVAILABILITY" value="In Stock" x="110" y="-31" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" Diode Standard 100 V 150mA Surface Mount SOD-123 " x="110" y="-31" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Diodes Inc." x="110" y="-31" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="1N4148W-13-F" x="110" y="-31" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="8.34" y="66.72" size="0.8128" layer="25"/>
-<attribute name="PACKAGE" value="SOD-123 Fairchild Semiconductor" x="110" y="-31" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="110" y="-31" size="1.778" layer="27" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/1N4148W-13-F/?ref=eda" x="110" y="-31" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="8.24" y="63.52" size="0.8128" layer="27"/>
+<element name="D15" library="1N4148W-13-F" package="SOD3715X135N" value="1N4148W-13-F" x="-99.06" y="96.52" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Diode Standard 100 V 150mA Surface Mount SOD-123 " x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Diodes Inc." x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="1N4148W-13-F" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-101.66" y="97.72" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="SOD-123 Fairchild Semiconductor" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/1N4148W-13-F/?ref=eda" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-101.76" y="94.52" size="0.8128" layer="27"/>
 </element>
-<element name="D16" library="1N4148W-13-F" package="SOD3715X135N" value="1N4148W-13-F" x="11.95" y="89.6" smashed="yes">
-<attribute name="AVAILABILITY" value="In Stock" x="31" y="-12" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" Diode Standard 100 V 150mA Surface Mount SOD-123 " x="31" y="-12" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Diodes Inc." x="31" y="-12" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="1N4148W-13-F" x="31" y="-12" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="9.35" y="90.8" size="0.8128" layer="25"/>
-<attribute name="PACKAGE" value="SOD-123 Fairchild Semiconductor" x="31" y="-12" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="31" y="-12" size="1.778" layer="27" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/1N4148W-13-F/?ref=eda" x="31" y="-12" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="9.25" y="87.6" size="0.8128" layer="27"/>
+<element name="D16" library="1N4148W-13-F" package="SOD3715X135N" value="1N4148W-13-F" x="-19.05" y="101.6" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Diode Standard 100 V 150mA Surface Mount SOD-123 " x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Diodes Inc." x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="1N4148W-13-F" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-21.65" y="102.8" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="SOD-123 Fairchild Semiconductor" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/1N4148W-13-F/?ref=eda" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-21.75" y="99.6" size="0.8128" layer="27"/>
 </element>
-<element name="D2" library="1N4148W-13-F" package="SOD3715X135N" value="1N4148W-13-F" x="61.42" y="65.52" smashed="yes">
-<attribute name="AVAILABILITY" value="In Stock" x="130" y="-24.65" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" Diode Standard 100 V 150mA Surface Mount SOD-123 " x="130" y="-24.65" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Diodes Inc." x="130" y="-24.65" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="1N4148W-13-F" x="130" y="-24.65" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="58.82" y="66.72" size="0.8128" layer="25"/>
-<attribute name="PACKAGE" value="SOD-123 Fairchild Semiconductor" x="130" y="-24.65" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="130" y="-24.65" size="1.778" layer="27" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/1N4148W-13-F/?ref=eda" x="130" y="-24.65" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="58.72" y="63.52" size="0.8128" layer="27"/>
+<element name="D2" library="1N4148W-13-F" package="SOD3715X135N" value="1N4148W-13-F" x="-68.58" y="90.17" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Diode Standard 100 V 150mA Surface Mount SOD-123 " x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Diodes Inc." x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="1N4148W-13-F" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-71.18" y="91.37" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="SOD-123 Fairchild Semiconductor" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/1N4148W-13-F/?ref=eda" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-71.28" y="88.17" size="0.8128" layer="27"/>
 </element>
-<element name="D3" library="1N4148W-13-F" package="SOD3715X135N" value="1N4148W-13-F" x="61.53" y="43.52" smashed="yes">
-<attribute name="AVAILABILITY" value="In Stock" x="139" y="-46.65" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" Diode Standard 100 V 150mA Surface Mount SOD-123 " x="139" y="-46.65" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Diodes Inc." x="139" y="-46.65" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="1N4148W-13-F" x="139" y="-46.65" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="58.93" y="44.72" size="0.8128" layer="25"/>
-<attribute name="PACKAGE" value="SOD-123 Fairchild Semiconductor" x="139" y="-46.65" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="139" y="-46.65" size="1.778" layer="27" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/1N4148W-13-F/?ref=eda" x="139" y="-46.65" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="58.83" y="41.52" size="0.8128" layer="27"/>
+<element name="D3" library="1N4148W-13-F" package="SOD3715X135N" value="1N4148W-13-F" x="-77.47" y="90.17" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Diode Standard 100 V 150mA Surface Mount SOD-123 " x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Diodes Inc." x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="1N4148W-13-F" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-80.07" y="91.37" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="SOD-123 Fairchild Semiconductor" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/1N4148W-13-F/?ref=eda" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-80.17" y="88.17" size="0.8128" layer="27"/>
 </element>
-<element name="D4" library="1N4148W-13-F" package="SOD3715X135N" value="1N4148W-13-F" x="63.64" y="20.52" smashed="yes">
-<attribute name="AVAILABILITY" value="In Stock" x="150" y="-69.65" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" Diode Standard 100 V 150mA Surface Mount SOD-123 " x="150" y="-69.65" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Diodes Inc." x="150" y="-69.65" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="1N4148W-13-F" x="150" y="-69.65" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="61.04" y="21.72" size="0.8128" layer="25"/>
-<attribute name="PACKAGE" value="SOD-123 Fairchild Semiconductor" x="150" y="-69.65" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="150" y="-69.65" size="1.778" layer="27" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/1N4148W-13-F/?ref=eda" x="150" y="-69.65" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="60.94" y="18.52" size="0.8128" layer="27"/>
+<element name="D4" library="1N4148W-13-F" package="SOD3715X135N" value="1N4148W-13-F" x="-86.36" y="90.17" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Diode Standard 100 V 150mA Surface Mount SOD-123 " x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Diodes Inc." x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="1N4148W-13-F" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-88.96" y="91.37" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="SOD-123 Fairchild Semiconductor" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/1N4148W-13-F/?ref=eda" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-89.06" y="88.17" size="0.8128" layer="27"/>
 </element>
-<element name="D5" library="1N4148W-13-F" package="SOD3715X135N" value="1N4148W-13-F" x="45.75" y="20.52" smashed="yes">
-<attribute name="AVAILABILITY" value="In Stock" x="141" y="-69.65" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" Diode Standard 100 V 150mA Surface Mount SOD-123 " x="141" y="-69.65" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Diodes Inc." x="141" y="-69.65" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="1N4148W-13-F" x="141" y="-69.65" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="43.15" y="21.72" size="0.8128" layer="25"/>
-<attribute name="PACKAGE" value="SOD-123 Fairchild Semiconductor" x="141" y="-69.65" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="141" y="-69.65" size="1.778" layer="27" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/1N4148W-13-F/?ref=eda" x="141" y="-69.65" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="43.05" y="18.52" size="0.8128" layer="27"/>
+<element name="D5" library="1N4148W-13-F" package="SOD3715X135N" value="1N4148W-13-F" x="-95.25" y="90.17" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Diode Standard 100 V 150mA Surface Mount SOD-123 " x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Diodes Inc." x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="1N4148W-13-F" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-97.85" y="91.37" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="SOD-123 Fairchild Semiconductor" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/1N4148W-13-F/?ref=eda" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-97.95" y="88.17" size="0.8128" layer="27"/>
 </element>
-<element name="D6" library="1N4148W-13-F" package="SOD3715X135N" value="1N4148W-13-F" x="45.95" y="43.52" smashed="yes">
-<attribute name="AVAILABILITY" value="In Stock" x="65" y="-53" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" Diode Standard 100 V 150mA Surface Mount SOD-123 " x="65" y="-53" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Diodes Inc." x="65" y="-53" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="1N4148W-13-F" x="65" y="-53" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="43.35" y="44.72" size="0.8128" layer="25"/>
-<attribute name="PACKAGE" value="SOD-123 Fairchild Semiconductor" x="65" y="-53" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="65" y="-53" size="1.778" layer="27" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/1N4148W-13-F/?ref=eda" x="65" y="-53" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="43.25" y="41.52" size="0.8128" layer="27"/>
+<element name="D6" library="1N4148W-13-F" package="SOD3715X135N" value="1N4148W-13-F" x="-19.05" y="96.52" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Diode Standard 100 V 150mA Surface Mount SOD-123 " x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Diodes Inc." x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="1N4148W-13-F" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-21.65" y="97.72" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="SOD-123 Fairchild Semiconductor" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/1N4148W-13-F/?ref=eda" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-21.75" y="94.52" size="0.8128" layer="27"/>
 </element>
-<element name="D7" library="1N4148W-13-F" package="SOD3715X135N" value="1N4148W-13-F" x="45.06" y="65.52" smashed="yes">
-<attribute name="AVAILABILITY" value="In Stock" x="73" y="-31" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" Diode Standard 100 V 150mA Surface Mount SOD-123 " x="73" y="-31" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Diodes Inc." x="73" y="-31" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="1N4148W-13-F" x="73" y="-31" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="42.46" y="66.72" size="0.8128" layer="25"/>
-<attribute name="PACKAGE" value="SOD-123 Fairchild Semiconductor" x="73" y="-31" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="73" y="-31" size="1.778" layer="27" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/1N4148W-13-F/?ref=eda" x="73" y="-31" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="42.36" y="63.52" size="0.8128" layer="27"/>
+<element name="D7" library="1N4148W-13-F" package="SOD3715X135N" value="1N4148W-13-F" x="-27.94" y="96.52" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Diode Standard 100 V 150mA Surface Mount SOD-123 " x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Diodes Inc." x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="1N4148W-13-F" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-30.54" y="97.72" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="SOD-123 Fairchild Semiconductor" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/1N4148W-13-F/?ref=eda" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-30.64" y="94.52" size="0.8128" layer="27"/>
 </element>
-<element name="D8" library="1N4148W-13-F" package="SOD3715X135N" value="1N4148W-13-F" x="46.17" y="89.6" smashed="yes">
-<attribute name="AVAILABILITY" value="In Stock" x="83" y="-6.92" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" Diode Standard 100 V 150mA Surface Mount SOD-123 " x="83" y="-6.92" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Diodes Inc." x="83" y="-6.92" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="1N4148W-13-F" x="83" y="-6.92" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="43.57" y="90.8" size="0.8128" layer="25"/>
-<attribute name="PACKAGE" value="SOD-123 Fairchild Semiconductor" x="83" y="-6.92" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="83" y="-6.92" size="1.778" layer="27" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/1N4148W-13-F/?ref=eda" x="83" y="-6.92" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="43.47" y="87.6" size="0.8128" layer="27"/>
+<element name="D8" library="1N4148W-13-F" package="SOD3715X135N" value="1N4148W-13-F" x="-36.83" y="96.52" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Diode Standard 100 V 150mA Surface Mount SOD-123 " x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Diodes Inc." x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="1N4148W-13-F" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-39.43" y="97.72" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="SOD-123 Fairchild Semiconductor" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/1N4148W-13-F/?ref=eda" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-39.53" y="94.52" size="0.8128" layer="27"/>
 </element>
-<element name="D9" library="1N4148W-13-F" package="SOD3715X135N" value="1N4148W-13-F" x="29.28" y="89.6" smashed="yes">
-<attribute name="AVAILABILITY" value="In Stock" x="75" y="-6.92" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" Diode Standard 100 V 150mA Surface Mount SOD-123 " x="75" y="-6.92" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Diodes Inc." x="75" y="-6.92" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="1N4148W-13-F" x="75" y="-6.92" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="26.68" y="90.8" size="0.8128" layer="25"/>
-<attribute name="PACKAGE" value="SOD-123 Fairchild Semiconductor" x="75" y="-6.92" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="75" y="-6.92" size="1.778" layer="27" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/1N4148W-13-F/?ref=eda" x="75" y="-6.92" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="26.58" y="87.6" size="0.8128" layer="27"/>
+<element name="D9" library="1N4148W-13-F" package="SOD3715X135N" value="1N4148W-13-F" x="-45.72" y="96.52" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Diode Standard 100 V 150mA Surface Mount SOD-123 " x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Diodes Inc." x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="1N4148W-13-F" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-48.32" y="97.72" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="SOD-123 Fairchild Semiconductor" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/1N4148W-13-F/?ref=eda" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-48.42" y="94.52" size="0.8128" layer="27"/>
 </element>
-<element name="J2" library="SparkFun-Connectors" package="USB-B-MICRO-SMD" value="" x="30.93" y="139.5" smashed="yes" rot="R270">
-<attribute name="NAME" x="35.629" y="140.77" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
-<attribute name="PROD_ID" value="CONN-11752" x="-44" y="76" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="26.231" y="140.77" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-left"/>
+<element name="J2" library="SparkFun-Connectors" package="USB-B-MICRO-SMD" value="" x="-63.5" y="74.93" smashed="yes">
+<attribute name="NAME" x="-64.77" y="79.629" size="0.6096" layer="25" font="vector" ratio="20"/>
+<attribute name="PROD_ID" value="CONN-11752" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-64.77" y="70.231" size="0.6096" layer="27" font="vector" ratio="20" align="top-left"/>
 </element>
-<element name="LED1" library="led" package="SML0805" value="Green" x="19.17" y="115.75" smashed="yes" rot="R270">
-<attribute name="NAME" x="20.17" y="117.25" size="1.27" layer="25" rot="R270"/>
-<attribute name="VALUE" x="17.17" y="117.25" size="1.27" layer="27" rot="R270"/>
+<element name="LED1" library="led" package="SML0805" value="Green" x="-31.75" y="90.17" smashed="yes">
+<attribute name="NAME" x="-33.25" y="91.17" size="1.27" layer="25"/>
+<attribute name="POPULARITY" value="17" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-33.25" y="88.17" size="1.27" layer="27"/>
 </element>
-<element name="LED3" library="led" package="SML0805" value="" x="55.74" y="129.59" smashed="yes" rot="R180">
-<attribute name="NAME" x="57.24" y="128.59" size="1.27" layer="25" rot="R180"/>
-<attribute name="VALUE" x="57.24" y="131.59" size="1.27" layer="27" rot="R180"/>
+<element name="LED3" library="led" package="SML0805" value="" x="-78.74" y="105.41" smashed="yes">
+<attribute name="NAME" x="-80.24" y="106.41" size="1.27" layer="25"/>
+<attribute name="POPULARITY" value="17" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-80.24" y="103.41" size="1.27" layer="27"/>
 </element>
-<element name="Q1" library="crystal" package="HC49UP" value="" x="10.66" y="124.98" smashed="yes" rot="R270">
-<attribute name="MF" value="" x="-63" y="31" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="" x="-63" y="31" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="13.454" y="130.695" size="1.27" layer="25" ratio="10" rot="R270"/>
-<attribute name="OC_FARNELL" value="unknown" x="-63" y="31" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="-63" y="31" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="6.469" y="130.695" size="1.27" layer="27" ratio="10" rot="R270"/>
+<element name="Q1" library="crystal" package="HC49UP" value="" x="-93.98" y="73.66" smashed="yes">
+<attribute name="MF" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-99.695" y="76.454" size="1.27" layer="25" ratio="10"/>
+<attribute name="OC_FARNELL" value="unknown" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-99.695" y="69.469" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="R1" library="audio amplifier example" package="R0603" value="22" x="32.17" y="133.83" smashed="yes" rot="R270">
-<attribute name="NAME" x="33.059" y="134.719" size="1.27" layer="25" rot="R270"/>
-<attribute name="VALUE" x="30.138" y="134.719" size="1.27" layer="27" rot="R270"/>
+<element name="R1" library="audio amplifier example" package="R0603" value="22" x="-36.83" y="90.17" smashed="yes">
+<attribute name="NAME" x="-37.719" y="91.059" size="1.27" layer="25"/>
+<attribute name="VALUE" x="-37.719" y="88.138" size="1.27" layer="27"/>
 </element>
-<element name="R2" library="audio amplifier example" package="R0603" value="22" x="30.17" y="133.64" smashed="yes" rot="R270">
-<attribute name="NAME" x="31.059" y="134.529" size="1.27" layer="25" rot="R270"/>
-<attribute name="VALUE" x="28.138" y="134.529" size="1.27" layer="27" rot="R270"/>
+<element name="R2" library="audio amplifier example" package="R0603" value="22" x="-40.64" y="90.17" smashed="yes">
+<attribute name="NAME" x="-41.529" y="91.059" size="1.27" layer="25"/>
+<attribute name="VALUE" x="-41.529" y="88.138" size="1.27" layer="27"/>
 </element>
-<element name="R4" library="audio amplifier example" package="R0603" value="1K" x="21.17" y="115.45" smashed="yes" rot="R270">
-<attribute name="NAME" x="22.059" y="116.339" size="1.27" layer="25" rot="R270"/>
-<attribute name="VALUE" x="19.138" y="116.339" size="1.27" layer="27" rot="R270"/>
+<element name="R4" library="audio amplifier example" package="R0603" value="1K" x="-44.45" y="90.17" smashed="yes">
+<attribute name="NAME" x="-45.339" y="91.059" size="1.27" layer="25"/>
+<attribute name="VALUE" x="-45.339" y="88.138" size="1.27" layer="27"/>
 </element>
-<element name="R6" library="audio amplifier example" package="R0603" value="1K" x="54.83" y="132.74" smashed="yes" rot="R90">
-<attribute name="NAME" x="53.941" y="131.851" size="1.27" layer="25" rot="R90"/>
-<attribute name="VALUE" x="56.862" y="131.851" size="1.27" layer="27" rot="R90"/>
+<element name="R6" library="audio amplifier example" package="R0603" value="1K" x="-48.26" y="90.17" smashed="yes">
+<attribute name="NAME" x="-49.149" y="91.059" size="1.27" layer="25"/>
+<attribute name="VALUE" x="-49.149" y="88.138" size="1.27" layer="27"/>
 </element>
-<element name="R7" library="audio amplifier example" package="R0603" value="1K" x="19.17" y="138.07" smashed="yes" rot="R270">
-<attribute name="NAME" x="20.059" y="138.959" size="1.27" layer="25" rot="R270"/>
-<attribute name="VALUE" x="17.138" y="138.959" size="1.27" layer="27" rot="R270"/>
+<element name="R7" library="audio amplifier example" package="R0603" value="1K" x="-52.07" y="90.17" smashed="yes">
+<attribute name="NAME" x="-52.959" y="91.059" size="1.27" layer="25"/>
+<attribute name="VALUE" x="-52.959" y="88.138" size="1.27" layer="27"/>
 </element>
-<element name="S2" library="SparkFun-Switches" package="TACTILE_SWITCH_SMD_4.6X2.8MM" value="Reset" x="13.53" y="138.6" smashed="yes">
-<attribute name="NAME" x="13.53" y="140.124" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="SWCH-13065" x="91" y="37" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="13.53" y="137.076" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<element name="S2" library="SparkFun-Switches" package="TACTILE_SWITCH_SMD_4.6X2.8MM" value="Reset" x="-77.47" y="101.6" smashed="yes">
+<attribute name="NAME" x="-77.47" y="103.124" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="SWCH-13065" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-77.47" y="100.076" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="SJ1" library="jumper" package="SJ" value="" x="61.75" y="86.59" smashed="yes" rot="R180">
-<attribute name="NAME" x="63.401" y="85.447" size="1.27" layer="25" ratio="10" rot="R180"/>
-<attribute name="POPULARITY" value="33" x="30" y="192" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="61.3499" y="86.59" size="0.02" layer="27" rot="R180"/>
+<element name="SJ1" library="jumper" package="SJ" value="" x="-31.75" y="105.41" smashed="yes">
+<attribute name="NAME" x="-33.401" y="106.553" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="33" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-31.3499" y="105.41" size="0.02" layer="27"/>
 </element>
-<element name="SJ10" library="jumper" package="SJ" value="" x="29.82" y="62.67" smashed="yes" rot="R180">
-<attribute name="NAME" x="31.471" y="61.527" size="1.27" layer="25" ratio="10" rot="R180"/>
-<attribute name="POPULARITY" value="33" x="-54" y="163" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="29.4199" y="62.67" size="0.02" layer="27" rot="R180"/>
+<element name="SJ10" library="jumper" package="SJ" value="" x="-83.82" y="100.33" smashed="yes">
+<attribute name="NAME" x="-85.471" y="101.473" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="33" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-83.4199" y="100.33" size="0.02" layer="27"/>
 </element>
-<element name="SJ11" library="jumper" package="SJ" value="" x="29.67" y="40.59" smashed="yes" rot="R180">
-<attribute name="NAME" x="31.321" y="39.447" size="1.27" layer="25" ratio="10" rot="R180"/>
-<attribute name="POPULARITY" value="33" x="3" y="146" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="29.2699" y="40.59" size="0.02" layer="27" rot="R180"/>
+<element name="SJ11" library="jumper" package="SJ" value="" x="-26.67" y="105.41" smashed="yes">
+<attribute name="NAME" x="-28.321" y="106.553" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="33" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-26.2699" y="105.41" size="0.02" layer="27"/>
 </element>
-<element name="SJ12" library="jumper" package="SJ" value="" x="29.9" y="17.67" smashed="yes" rot="R180">
-<attribute name="NAME" x="31.551" y="16.527" size="1.27" layer="25" ratio="10" rot="R180"/>
-<attribute name="POPULARITY" value="33" x="-59" y="118" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="29.4999" y="17.67" size="0.02" layer="27" rot="R180"/>
+<element name="SJ12" library="jumper" package="SJ" value="" x="-88.9" y="100.33" smashed="yes">
+<attribute name="NAME" x="-90.551" y="101.473" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="33" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-88.4999" y="100.33" size="0.02" layer="27"/>
 </element>
-<element name="SJ13" library="jumper" package="SJ" value="" x="11.98" y="17.67" smashed="yes" rot="R180">
-<attribute name="NAME" x="13.631" y="16.527" size="1.27" layer="25" ratio="10" rot="R180"/>
-<attribute name="POPULARITY" value="33" x="-82" y="118" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="11.5799" y="17.67" size="0.02" layer="27" rot="R180"/>
+<element name="SJ13" library="jumper" package="SJ" value="" x="-93.98" y="100.33" smashed="yes">
+<attribute name="NAME" x="-95.631" y="101.473" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="33" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-93.5799" y="100.33" size="0.02" layer="27"/>
 </element>
-<element name="SJ14" library="jumper" package="SJ" value="" x="11.06" y="40.67" smashed="yes" rot="R180">
-<attribute name="NAME" x="12.711" y="39.527" size="1.27" layer="25" ratio="10" rot="R180"/>
-<attribute name="POPULARITY" value="33" x="-88" y="141" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="10.6599" y="40.67" size="0.02" layer="27" rot="R180"/>
+<element name="SJ14" library="jumper" package="SJ" value="" x="-99.06" y="100.33" smashed="yes">
+<attribute name="NAME" x="-100.711" y="101.473" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="33" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-98.6599" y="100.33" size="0.02" layer="27"/>
 </element>
-<element name="SJ15" library="jumper" package="SJ" value="" x="11.51" y="62.59" smashed="yes" rot="R180">
-<attribute name="NAME" x="13.161" y="61.447" size="1.27" layer="25" ratio="10" rot="R180"/>
-<attribute name="POPULARITY" value="33" x="-5" y="168" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="11.1099" y="62.59" size="0.02" layer="27" rot="R180"/>
+<element name="SJ15" library="jumper" package="SJ" value="" x="-16.51" y="105.41" smashed="yes">
+<attribute name="NAME" x="-18.161" y="106.553" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="33" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-16.1099" y="105.41" size="0.02" layer="27"/>
 </element>
-<element name="SJ16" library="jumper" package="SJ" value="" x="12.59" y="86.59" smashed="yes" rot="R180">
-<attribute name="NAME" x="14.241" y="85.447" size="1.27" layer="25" ratio="10" rot="R180"/>
-<attribute name="POPULARITY" value="33" x="-9" y="192" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="12.1899" y="86.59" size="0.02" layer="27" rot="R180"/>
+<element name="SJ16" library="jumper" package="SJ" value="" x="-21.59" y="105.41" smashed="yes">
+<attribute name="NAME" x="-23.241" y="106.553" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="33" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-21.1899" y="105.41" size="0.02" layer="27"/>
 </element>
-<element name="SJ2" library="jumper" package="SJ" value="" x="62.83" y="62.59" smashed="yes" rot="R180">
-<attribute name="NAME" x="64.481" y="61.447" size="1.27" layer="25" ratio="10" rot="R180"/>
-<attribute name="POPULARITY" value="33" x="26" y="168" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="62.4299" y="62.59" size="0.02" layer="27" rot="R180"/>
+<element name="SJ2" library="jumper" package="SJ" value="" x="-36.83" y="105.41" smashed="yes">
+<attribute name="NAME" x="-38.481" y="106.553" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="33" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-36.4299" y="105.41" size="0.02" layer="27"/>
 </element>
-<element name="SJ3" library="jumper" package="SJ" value="" x="61.91" y="40.59" smashed="yes" rot="R180">
-<attribute name="NAME" x="63.561" y="39.447" size="1.27" layer="25" ratio="10" rot="R180"/>
-<attribute name="POPULARITY" value="33" x="20" y="146" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="61.5099" y="40.59" size="0.02" layer="27" rot="R180"/>
+<element name="SJ3" library="jumper" package="SJ" value="" x="-41.91" y="105.41" smashed="yes">
+<attribute name="NAME" x="-43.561" y="106.553" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="33" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-41.5099" y="105.41" size="0.02" layer="27"/>
 </element>
-<element name="SJ4" library="jumper" package="SJ" value="" x="63.99" y="17.59" smashed="yes" rot="R180">
-<attribute name="NAME" x="65.641" y="16.447" size="1.27" layer="25" ratio="10" rot="R180"/>
-<attribute name="POPULARITY" value="33" x="17" y="123" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="63.5899" y="17.59" size="0.02" layer="27" rot="R180"/>
+<element name="SJ4" library="jumper" package="SJ" value="" x="-46.99" y="105.41" smashed="yes">
+<attribute name="NAME" x="-48.641" y="106.553" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="33" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-46.5899" y="105.41" size="0.02" layer="27"/>
 </element>
-<element name="SJ5" library="jumper" package="SJ" value="" x="46.07" y="17.59" smashed="yes" rot="R180">
-<attribute name="NAME" x="47.721" y="16.447" size="1.27" layer="25" ratio="10" rot="R180"/>
-<attribute name="POPULARITY" value="33" x="-6" y="123" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="45.6699" y="17.59" size="0.02" layer="27" rot="R180"/>
+<element name="SJ5" library="jumper" package="SJ" value="" x="-52.07" y="105.41" smashed="yes">
+<attribute name="NAME" x="-53.721" y="106.553" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="33" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-51.6699" y="105.41" size="0.02" layer="27"/>
 </element>
-<element name="SJ6" library="jumper" package="SJ" value="" x="45.85" y="40.41" smashed="yes">
-<attribute name="NAME" x="44.199" y="41.553" size="1.27" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="33" x="103" y="-65" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="46.2501" y="40.41" size="0.02" layer="27"/>
+<element name="SJ6" library="jumper" package="SJ" value="" x="-57.15" y="105.41" smashed="yes">
+<attribute name="NAME" x="-58.801" y="106.553" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="33" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-56.7499" y="105.41" size="0.02" layer="27"/>
 </element>
-<element name="SJ7" library="jumper" package="SJ" value="" x="45.23" y="62.59" smashed="yes" rot="R180">
-<attribute name="NAME" x="46.881" y="61.447" size="1.27" layer="25" ratio="10" rot="R180"/>
-<attribute name="POPULARITY" value="33" x="-17" y="168" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="44.8299" y="62.59" size="0.02" layer="27" rot="R180"/>
+<element name="SJ7" library="jumper" package="SJ" value="" x="-62.23" y="105.41" smashed="yes">
+<attribute name="NAME" x="-63.881" y="106.553" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="33" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-61.8299" y="105.41" size="0.02" layer="27"/>
 </element>
-<element name="SJ8" library="jumper" package="SJ" value="" x="46.31" y="86.59" smashed="yes" rot="R180">
-<attribute name="NAME" x="47.961" y="85.447" size="1.27" layer="25" ratio="10" rot="R180"/>
-<attribute name="POPULARITY" value="33" x="-21" y="192" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="45.9099" y="86.59" size="0.02" layer="27" rot="R180"/>
+<element name="SJ8" library="jumper" package="SJ" value="" x="-67.31" y="105.41" smashed="yes">
+<attribute name="NAME" x="-68.961" y="106.553" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="33" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-66.9099" y="105.41" size="0.02" layer="27"/>
 </element>
-<element name="SJ9" library="jumper" package="SJ" value="" x="29.39" y="86.59" smashed="yes" rot="R180">
-<attribute name="NAME" x="31.041" y="85.447" size="1.27" layer="25" ratio="10" rot="R180"/>
-<attribute name="POPULARITY" value="33" x="-43" y="192" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="28.9899" y="86.59" size="0.02" layer="27" rot="R180"/>
+<element name="SJ9" library="jumper" package="SJ" value="" x="-72.39" y="105.41" smashed="yes">
+<attribute name="NAME" x="-74.041" y="106.553" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="33" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-71.9899" y="105.41" size="0.02" layer="27"/>
 </element>
-<element name="SV2" library="con-lstb" package="MA05-1" value="" x="3.17" y="129.32" smashed="yes" rot="R270">
-<attribute name="MF" value="" x="-87" y="109" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="" x="-87" y="109" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="4.821" y="135.67" size="1.27" layer="25" ratio="10" rot="R270"/>
-<attribute name="OC_FARNELL" value="unknown" x="-87" y="109" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="-87" y="109" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="POPULARITY" value="29" x="-87" y="109" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="0.249" y="131.86" size="1.27" layer="27" ratio="10" rot="R270"/>
+<element name="SV2" library="con-lstb" package="MA05-1" value="" x="-20.32" y="90.17" smashed="yes">
+<attribute name="MF" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-26.67" y="91.821" size="1.27" layer="25" ratio="10"/>
+<attribute name="OC_FARNELL" value="unknown" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="POPULARITY" value="29" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-22.86" y="87.249" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="U$1" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="60.96" y="76.2" smashed="yes"/>
-<element name="U$10" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="44.41" y="30.23" smashed="yes"/>
-<element name="U$11" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="27.9" y="30.23" smashed="yes"/>
-<element name="U$12" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="10.39" y="30.23" smashed="yes"/>
-<element name="U$13" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="60.88" y="8.23" smashed="yes"/>
-<element name="U$14" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="44.37" y="8.23" smashed="yes"/>
-<element name="U$15" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="27.9" y="8.255" smashed="yes"/>
-<element name="U$16" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="10.39" y="8.255" smashed="yes"/>
-<element name="U$17" library="SparkFun-IC-Microcontroller" package="TQFP44" value="32U4" x="30.46" y="124.25" smashed="yes" rot="R270">
-<attribute name="NAME" x="37.445" y="124.25" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="IC-11161" x="1.25" y="103.93" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="22.84" y="124.25" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="bottom-center"/>
+<element name="U$1" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="-35.56" y="27.94" smashed="yes"/>
+<element name="U$10" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="-21.59" y="62.23" smashed="yes"/>
+<element name="U$11" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="-38.1" y="62.23" smashed="yes"/>
+<element name="U$12" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="-54.61" y="62.23" smashed="yes"/>
+<element name="U$13" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="-71.12" y="62.23" smashed="yes"/>
+<element name="U$14" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="-87.63" y="62.23" smashed="yes"/>
+<element name="U$15" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="-21.59" y="78.74" smashed="yes"/>
+<element name="U$16" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="-38.1" y="78.74" smashed="yes"/>
+<element name="U$17" library="SparkFun-IC-Microcontroller" package="TQFP44" value="32U4" x="31.75" y="124.46" smashed="yes">
+<attribute name="NAME" x="31.75" y="131.445" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="IC-11161" x="52.07" y="95.25" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="31.75" y="116.84" size="0.6096" layer="27" font="vector" ratio="20" align="bottom-center"/>
 </element>
-<element name="U$2" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="44.45" y="76.2" smashed="yes"/>
-<element name="U$3" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="27.94" y="76.2" smashed="yes"/>
-<element name="U$4" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="10.16" y="76.2" smashed="yes"/>
-<element name="U$5" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="60.96" y="53.15" smashed="yes"/>
-<element name="U$6" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="44.45" y="53.15" smashed="yes"/>
-<element name="U$7" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="27.94" y="53.15" smashed="yes"/>
-<element name="U$8" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="10.16" y="53.07" smashed="yes"/>
-<element name="U$9" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="60.96" y="30.29" smashed="yes"/>
-<element name="U2" library="AMS1117-5.0" package="SOT229P700X180-4N" value="AMS1117-5.0" x="48.61" y="130.8" smashed="yes" rot="R180">
-<attribute name="AVAILABILITY" value="Not in stock" x="-6" y="207" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value=" Sot223/Pkg 1-Amp 5-Volt Low Drop Out Voltage Regulatator " x="-6" y="207" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="Advanced Monolithic Systems" x="-6" y="207" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MP" value="AMS1117-5.0" x="-6" y="207" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="52.1125" y="126.15" size="1.27" layer="25" rot="R180"/>
-<attribute name="PACKAGE" value="SOT-223 Seeed Technology" x="-6" y="207" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PRICE" value="None" x="-6" y="207" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="52.1125" y="135.35" size="1.27" layer="27" rot="R180" align="top-left"/>
+<element name="U$2" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="-52.07" y="27.94" smashed="yes"/>
+<element name="U$3" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="-68.58" y="27.94" smashed="yes"/>
+<element name="U$4" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="-86.36" y="29.21" smashed="yes"/>
+<element name="U$5" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="-21.59" y="45.72" smashed="yes"/>
+<element name="U$6" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="-38.1" y="45.72" smashed="yes"/>
+<element name="U$7" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="-54.61" y="45.72" smashed="yes"/>
+<element name="U$8" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="-71.12" y="45.72" smashed="yes"/>
+<element name="U$9" library="cherrymx" package="CHERRY-MX" value="CHERRY-MX" x="-87.63" y="45.72" smashed="yes"/>
+<element name="U2" library="AMS1117-5.0" package="SOT229P700X180-4N" value="AMS1117-5.0" x="-54.61" y="76.2" smashed="yes">
+<attribute name="AVAILABILITY" value="Not in stock" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Sot223/Pkg 1-Amp 5-Volt Low Drop Out Voltage Regulatator " x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Advanced Monolithic Systems" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="AMS1117-5.0" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-58.1125" y="80.85" size="1.27" layer="25"/>
+<attribute name="PACKAGE" value="SOT-223 Seeed Technology" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-58.1125" y="71.65" size="1.27" layer="27" align="top-left"/>
 </element>
-<element name="VR1" library="PEC11R-4220F-S0024-RotaryEncoder" package="PEC11R4220FS0024" value="PEC11R-4220F-S0024" x="56.12" y="108.51" smashed="yes">
-<attribute name="ALLIED_NUMBER" value="70276555" x="112" y="92" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="Bourns 24 Pulse Incremental Mechanical Rotary Encoder with a 6 mm Flat Shaft (Not Indexed), Through Hole" x="112" y="92" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="27.5mm" x="112" y="92" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Bourns" x="112" y="92" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="PEC11R-4220F-S0024" x="112" y="92" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="57.62" y="101.26" size="1.27" layer="25" align="center"/>
-<attribute name="RS_PART_NUMBER" value="7377767P" x="112" y="92" size="1.778" layer="27" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7377767P" x="112" y="92" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="58.62" y="103.26" size="1.27" layer="27" align="center"/>
+<element name="VR1" library="PEC11R-4220F-S0024-RotaryEncoder" package="PEC11R4220FS0024" value="PEC11R-4220F-S0024" x="-55.88" y="16.51" smashed="yes">
+<attribute name="ALLIED_NUMBER" value="70276555" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Bourns 24 Pulse Incremental Mechanical Rotary Encoder with a 6 mm Flat Shaft (Not Indexed), Through Hole" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="27.5mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Bourns" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PEC11R-4220F-S0024" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-53.38" y="9.26" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="7377767P" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7377767P" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-53.38" y="9.26" size="1.27" layer="27" align="center"/>
 </element>
-<element name="VR2" library="PEC11R-4220F-S0024-RotaryEncoder" package="PEC11R4220FS0024" value="PEC11R-4220F-S0024" x="32.8" y="108.51" smashed="yes">
-<attribute name="ALLIED_NUMBER" value="70276555" x="109" y="92" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="Bourns 24 Pulse Incremental Mechanical Rotary Encoder with a 6 mm Flat Shaft (Not Indexed), Through Hole" x="109" y="92" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="27.5mm" x="109" y="92" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Bourns" x="109" y="92" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="PEC11R-4220F-S0024" x="109" y="92" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="35.3" y="101.26" size="1.27" layer="25" align="center"/>
-<attribute name="RS_PART_NUMBER" value="7377767P" x="109" y="92" size="1.778" layer="27" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7377767P" x="109" y="92" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="35.3" y="101.26" size="1.27" layer="27" align="center"/>
+<element name="VR2" library="PEC11R-4220F-S0024-RotaryEncoder" package="PEC11R4220FS0024" value="PEC11R-4220F-S0024" x="-76.2" y="16.51" smashed="yes">
+<attribute name="ALLIED_NUMBER" value="70276555" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Bourns 24 Pulse Incremental Mechanical Rotary Encoder with a 6 mm Flat Shaft (Not Indexed), Through Hole" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="27.5mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Bourns" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PEC11R-4220F-S0024" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-73.7" y="9.26" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="7377767P" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7377767P" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-73.7" y="9.26" size="1.27" layer="27" align="center"/>
 </element>
-<element name="VR3" library="PEC11R-4220F-S0024-RotaryEncoder" package="PEC11R4220FS0024" value="PEC11R-4220F-S0024" x="9.48" y="108.51" smashed="yes">
-<attribute name="ALLIED_NUMBER" value="70276555" x="106" y="92" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="Bourns 24 Pulse Incremental Mechanical Rotary Encoder with a 6 mm Flat Shaft (Not Indexed), Through Hole" x="106" y="92" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="27.5mm" x="106" y="92" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Bourns" x="106" y="92" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="PEC11R-4220F-S0024" x="106" y="92" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="11.98" y="101.26" size="1.27" layer="25" align="center"/>
-<attribute name="RS_PART_NUMBER" value="7377767P" x="106" y="92" size="1.778" layer="27" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7377767P" x="106" y="92" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="11.98" y="101.26" size="1.27" layer="27" align="center"/>
+<element name="VR3" library="PEC11R-4220F-S0024-RotaryEncoder" package="PEC11R4220FS0024" value="PEC11R-4220F-S0024" x="-96.52" y="16.51" smashed="yes">
+<attribute name="ALLIED_NUMBER" value="70276555" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Bourns 24 Pulse Incremental Mechanical Rotary Encoder with a 6 mm Flat Shaft (Not Indexed), Through Hole" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="27.5mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Bourns" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PEC11R-4220F-S0024" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-94.02" y="9.26" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="7377767P" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7377767P" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-94.02" y="9.26" size="1.27" layer="27" align="center"/>
 </element>
 </elements>
 <signals>
@@ -2543,14 +2521,10 @@ design rules under a new name.</description>
 <contactref element="U$3" pad="SW1"/>
 <contactref element="U$4" pad="SW1"/>
 <contactref element="U$17" pad="25"/>
-<wire x1="24.13" y1="78.74" x2="28.06" y2="118.45" width="0" layer="19" extent="1-1"/>
-<wire x1="40.64" y1="78.74" x2="24.13" y2="78.74" width="0" layer="19" extent="1-1"/>
-<wire x1="41" y1="78" x2="40.64" y2="78.74" width="0" layer="19" extent="1-1"/>
-<wire x1="6.35" y1="78.74" x2="24.13" y2="78.74" width="0" layer="19" extent="1-1"/>
-<wire x1="57.15" y1="78.74" x2="46.462925" y2="78.74" width="0.4064" layer="1"/>
-<wire x1="46.462925" y1="78.74" x2="45.783525" y2="79.4194" width="0.4064" layer="1"/>
-<wire x1="45.783525" y1="79.4194" x2="42.4194" y2="79.4194" width="0.4064" layer="1"/>
-<wire x1="42.4194" y1="79.4194" x2="41" y2="78" width="0.4064" layer="1"/>
+<wire x1="-72.39" y1="30.48" x2="-90.17" y2="31.75" width="0" layer="19" extent="1-1"/>
+<wire x1="-55.88" y1="30.48" x2="-72.39" y2="30.48" width="0" layer="19" extent="1-1"/>
+<wire x1="-39.37" y1="30.48" x2="-55.88" y2="30.48" width="0" layer="19" extent="1-1"/>
+<wire x1="37.55" y1="122.06" x2="-39.37" y2="30.48" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ROW2">
 <contactref element="U$5" pad="SW1"/>
@@ -2558,40 +2532,24 @@ design rules under a new name.</description>
 <contactref element="U$7" pad="SW1"/>
 <contactref element="U$8" pad="SW1"/>
 <contactref element="U$17" pad="26"/>
-<wire x1="57.15" y1="55.69" x2="46.462925" y2="55.69" width="0.4064" layer="1"/>
-<wire x1="46.462925" y1="55.69" x2="45.783525" y2="56.3694" width="0.4064" layer="1"/>
-<wire x1="45.783525" y1="56.3694" x2="43.116475" y2="56.3694" width="0.4064" layer="1"/>
-<wire x1="43.116475" y1="56.3694" x2="42.437075" y2="55.69" width="0.4064" layer="1"/>
-<wire x1="42.437075" y1="55.69" x2="40.64" y2="55.69" width="0.4064" layer="1"/>
-<wire x1="40.64" y1="55.69" x2="29.952925" y2="55.69" width="0.4064" layer="1"/>
-<wire x1="29.952925" y1="55.69" x2="29.273525" y2="56.3694" width="0.4064" layer="1"/>
-<wire x1="29.273525" y1="56.3694" x2="26.606475" y2="56.3694" width="0.4064" layer="1"/>
-<wire x1="26.606475" y1="56.3694" x2="26.237075" y2="56" width="0.4064" layer="1"/>
-<wire x1="24.44" y1="56" x2="24.13" y2="55.69" width="0.4064" layer="1"/>
-<wire x1="26.237075" y1="56" x2="24.44" y2="56" width="0.4064" layer="1"/>
-<wire x1="24.13" y1="55.69" x2="12.092925" y2="55.69" width="0.4064" layer="1"/>
-<wire x1="12.092925" y1="55.69" x2="11.493525" y2="56.2894" width="0.4064" layer="1"/>
-<wire x1="11.493525" y1="56.2894" x2="7.0294" y2="56.2894" width="0.4064" layer="1"/>
-<wire x1="7.0294" y1="56.2894" x2="6.35" y2="55.61" width="0.4064" layer="1"/>
-<wire x1="24.13" y1="55.69" x2="28.86" y2="118.45" width="0" layer="19" extent="1-1"/>
+<wire x1="-58.42" y1="48.26" x2="-74.93" y2="48.26" width="0" layer="19" extent="1-1"/>
+<wire x1="-41.91" y1="48.26" x2="-58.42" y2="48.26" width="0" layer="19" extent="1-1"/>
+<wire x1="-25.4" y1="48.26" x2="-41.91" y2="48.26" width="0" layer="19" extent="1-1"/>
+<wire x1="37.55" y1="122.86" x2="-25.4" y2="48.26" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$8">
 <contactref element="D16" pad="A"/>
 <contactref element="SJ16" pad="1"/>
 <contactref element="U$4" pad="SW2"/>
-<wire x1="13.63" y1="89.6" x2="13.352" y2="89.322" width="0.4064" layer="1"/>
-<wire x1="13.352" y1="89.322" x2="13.352" y2="86.59" width="0.4064" layer="1"/>
-<wire x1="13.352" y1="81.932" x2="13.352" y2="86.59" width="0.4064" layer="1"/>
-<wire x1="12.7" y1="81.28" x2="13.352" y2="81.932" width="0.4064" layer="1"/>
+<wire x1="-22.352" y1="105.41" x2="-17.37" y2="101.6" width="0" layer="19" extent="1-1"/>
+<wire x1="-83.82" y1="34.29" x2="-22.352" y2="105.41" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$10">
 <contactref element="SJ15" pad="1"/>
 <contactref element="D15" pad="A"/>
 <contactref element="U$8" pad="SW2"/>
-<wire x1="12.62" y1="65.52" x2="12.272" y2="65.172" width="0.4064" layer="1"/>
-<wire x1="12.272" y1="65.172" x2="12.272" y2="62.59" width="0.4064" layer="1"/>
-<wire x1="12.272" y1="62.59" x2="12.7" y2="62.162" width="0.4064" layer="1"/>
-<wire x1="12.7" y1="62.162" x2="12.7" y2="58.15" width="0.4064" layer="1"/>
+<wire x1="-68.58" y1="50.8" x2="-17.272" y2="105.41" width="0" layer="19" extent="1-1"/>
+<wire x1="-97.38" y1="96.52" x2="-68.58" y2="50.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="COL4">
 <contactref element="D15" pad="C"/>
@@ -2603,61 +2561,42 @@ design rules under a new name.</description>
 <contactref element="D13" pad="C"/>
 <contactref element="SJ13" pad="2"/>
 <contactref element="U$17" pad="32"/>
-<wire x1="11.218" y1="17.67" x2="10.33" y2="17.67" width="0.4064" layer="1"/>
-<wire x1="10.33" y1="17.67" x2="10" y2="18" width="0.4064" layer="1"/>
-<wire x1="10" y1="18" x2="10" y2="20.48" width="0.4064" layer="1"/>
-<wire x1="10" y1="20.48" x2="10.04" y2="20.52" width="0.4064" layer="1"/>
-<wire x1="9.15" y1="43.52" x2="9.15" y2="41.818" width="0.4064" layer="1"/>
-<wire x1="9.15" y1="41.818" x2="10.298" y2="40.67" width="0.4064" layer="1"/>
-<wire x1="9.26" y1="65.52" x2="9.26" y2="64.078" width="0.4064" layer="1"/>
-<wire x1="9.26" y1="64.078" x2="10.748" y2="62.59" width="0.4064" layer="1"/>
-<wire x1="10.27" y1="89.6" x2="10.27" y2="87.73" width="0.4064" layer="1"/>
-<wire x1="11.41" y1="86.59" x2="11.828" y2="86.59" width="0.4064" layer="1"/>
-<wire x1="10.27" y1="87.73" x2="11.41" y2="86.59" width="0.4064" layer="1"/>
-<wire x1="10.27" y1="89.6" x2="33.66" y2="118.45" width="0" layer="19" extent="1-1"/>
-<wire x1="9.26" y1="65.52" x2="11.828" y2="86.59" width="0" layer="19" extent="1-1"/>
-<wire x1="9.15" y1="43.52" x2="10.748" y2="62.59" width="0" layer="19" extent="1-1"/>
-<wire x1="10.04" y1="20.52" x2="10.298" y2="40.67" width="0" layer="19" extent="1-1"/>
+<wire x1="-20.828" y1="105.41" x2="-15.748" y2="105.41" width="0" layer="19" extent="1-1"/>
+<wire x1="-20.73" y1="101.6" x2="-20.828" y2="105.41" width="0" layer="19" extent="1-1"/>
+<wire x1="-82.96" y1="96.52" x2="-20.73" y2="101.6" width="0" layer="19" extent="1-1"/>
+<wire x1="-91.85" y1="96.52" x2="-82.96" y2="96.52" width="0" layer="19" extent="1-1"/>
+<wire x1="-93.218" y1="100.33" x2="-91.85" y2="96.52" width="0" layer="19" extent="1-1"/>
+<wire x1="-98.298" y1="100.33" x2="-93.218" y2="100.33" width="0" layer="19" extent="1-1"/>
+<wire x1="-100.74" y1="96.52" x2="-98.298" y2="100.33" width="0" layer="19" extent="1-1"/>
+<wire x1="37.55" y1="127.66" x2="-20.73" y2="101.6" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$12">
 <contactref element="D14" pad="A"/>
 <contactref element="SJ14" pad="1"/>
 <contactref element="U$12" pad="SW2"/>
-<wire x1="12.51" y1="43.52" x2="12.51" y2="41.358" width="0.4064" layer="1"/>
-<wire x1="12.51" y1="41.358" x2="11.822" y2="40.67" width="0.4064" layer="1"/>
-<wire x1="11.822" y1="40.67" x2="12" y2="40.492" width="0.4064" layer="1"/>
-<wire x1="12" y1="40.492" x2="12" y2="36" width="0.4064" layer="1"/>
-<wire x1="12" y1="36" x2="12.69" y2="35.31" width="0.4064" layer="1"/>
-<wire x1="12.69" y1="35.31" x2="12.93" y2="35.31" width="0.4064" layer="1"/>
+<wire x1="-88.49" y1="96.52" x2="-52.07" y2="67.31" width="0" layer="19" extent="1-1"/>
+<wire x1="-99.822" y1="100.33" x2="-88.49" y2="96.52" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$14">
 <contactref element="D13" pad="A"/>
 <contactref element="SJ13" pad="1"/>
 <contactref element="U$16" pad="SW2"/>
-<wire x1="13.4" y1="20.52" x2="13.4" y2="18.328" width="0.4064" layer="1"/>
-<wire x1="13.4" y1="18.328" x2="13.036" y2="17.964" width="0.4064" layer="1"/>
-<wire x1="12.93" y1="17.858" x2="12.742" y2="17.67" width="0.4064" layer="1"/>
-<wire x1="12.93" y1="13.335" x2="12.93" y2="17.858" width="0.4064" layer="1"/>
-<wire x1="12.93" y1="17.858" x2="13.036" y2="17.964" width="0.4064" layer="1"/>
+<wire x1="-79.6" y1="96.52" x2="-35.56" y2="83.82" width="0" layer="19" extent="1-1"/>
+<wire x1="-94.742" y1="100.33" x2="-79.6" y2="96.52" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$9">
 <contactref element="D11" pad="A"/>
 <contactref element="SJ11" pad="1"/>
 <contactref element="U$11" pad="SW2"/>
-<wire x1="30.432" y1="40.59" x2="30.432" y2="40" width="0.4064" layer="1"/>
-<wire x1="30.432" y1="40" x2="30.432" y2="35.318" width="0.4064" layer="1"/>
-<wire x1="30.432" y1="35.318" x2="30.44" y2="35.31" width="0.4064" layer="1"/>
-<wire x1="31.18" y1="43.52" x2="31.18" y2="40.748" width="0.4064" layer="1"/>
-<wire x1="31.18" y1="40.748" x2="30.432" y2="40" width="0.4064" layer="1"/>
+<wire x1="-61.82" y1="96.52" x2="-27.432" y2="105.41" width="0" layer="19" extent="1-1"/>
+<wire x1="-35.56" y1="67.31" x2="-27.432" y2="105.41" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$15">
 <contactref element="D12" pad="A"/>
 <contactref element="SJ12" pad="1"/>
 <contactref element="U$15" pad="SW2"/>
-<wire x1="30.662" y1="17.67" x2="31.29" y2="18.298" width="0.4064" layer="1"/>
-<wire x1="31.29" y1="18.298" x2="31.29" y2="20.52" width="0.4064" layer="1"/>
-<wire x1="30.44" y1="13.335" x2="30.44" y2="17.448" width="0.4064" layer="1"/>
-<wire x1="30.44" y1="17.448" x2="30.662" y2="17.67" width="0.4064" layer="1"/>
+<wire x1="-70.71" y1="96.52" x2="-19.05" y2="83.82" width="0" layer="19" extent="1-1"/>
+<wire x1="-89.662" y1="100.33" x2="-70.71" y2="96.52" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="COL3">
 <contactref element="D12" pad="C"/>
@@ -2669,63 +2608,49 @@ design rules under a new name.</description>
 <contactref element="D9" pad="C"/>
 <contactref element="SJ9" pad="2"/>
 <contactref element="U$17" pad="31"/>
-<wire x1="27.93" y1="18.878" x2="27.93" y2="20.52" width="0.4064" layer="1"/>
-<wire x1="29.138" y1="17.67" x2="27.93" y2="18.878" width="0.4064" layer="1"/>
-<wire x1="27.82" y1="43.52" x2="27.82" y2="41.678" width="0.4064" layer="1"/>
-<wire x1="27.82" y1="41.678" x2="28.908" y2="40.59" width="0.4064" layer="1"/>
-<wire x1="27.71" y1="65.52" x2="27.71" y2="63.29" width="0.4064" layer="1"/>
-<wire x1="28.33" y1="62.67" x2="29.058" y2="62.67" width="0.4064" layer="1"/>
-<wire x1="27.71" y1="63.29" x2="28.33" y2="62.67" width="0.4064" layer="1"/>
-<wire x1="27.6" y1="87.618" x2="27.6" y2="89.6" width="0.4064" layer="1"/>
-<wire x1="28.628" y1="86.59" x2="27.6" y2="87.618" width="0.4064" layer="1"/>
-<wire x1="27.6" y1="89.6" x2="32.86" y2="118.45" width="0" layer="19" extent="1-1"/>
-<wire x1="27.71" y1="65.52" x2="28.628" y2="86.59" width="0" layer="19" extent="1-1"/>
-<wire x1="27.82" y1="43.52" x2="29.058" y2="62.67" width="0" layer="19" extent="1-1"/>
-<wire x1="27.93" y1="20.52" x2="28.908" y2="40.59" width="0" layer="19" extent="1-1"/>
+<wire x1="-47.4" y1="96.52" x2="-25.908" y2="105.41" width="0" layer="19" extent="1-1"/>
+<wire x1="-56.29" y1="96.52" x2="-47.4" y2="96.52" width="0" layer="19" extent="1-1"/>
+<wire x1="-65.18" y1="96.52" x2="-56.29" y2="96.52" width="0" layer="19" extent="1-1"/>
+<wire x1="-74.07" y1="96.52" x2="-65.18" y2="96.52" width="0" layer="19" extent="1-1"/>
+<wire x1="-71.628" y1="105.41" x2="-74.07" y2="96.52" width="0" layer="19" extent="1-1"/>
+<wire x1="-83.058" y1="100.33" x2="-74.07" y2="96.52" width="0" layer="19" extent="1-1"/>
+<wire x1="-88.138" y1="100.33" x2="-83.058" y2="100.33" width="0" layer="19" extent="1-1"/>
+<wire x1="37.55" y1="126.86" x2="-47.4" y2="96.52" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$17">
 <contactref element="D10" pad="A"/>
 <contactref element="SJ10" pad="1"/>
 <contactref element="U$7" pad="SW2"/>
-<wire x1="30.48" y1="58.23" x2="30.48" y2="62.568" width="0.4064" layer="1"/>
-<wire x1="30.48" y1="62.568" x2="30.582" y2="62.67" width="0.4064" layer="1"/>
-<wire x1="31.07" y1="65.52" x2="31.07" y2="63.158" width="0.4064" layer="1"/>
-<wire x1="31.07" y1="63.158" x2="30.582" y2="62.67" width="0.4064" layer="1"/>
+<wire x1="-84.582" y1="100.33" x2="-52.93" y2="96.52" width="0" layer="19" extent="1-1"/>
+<wire x1="-52.07" y1="50.8" x2="-52.93" y2="96.52" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$19">
 <contactref element="D9" pad="A"/>
 <contactref element="SJ9" pad="1"/>
 <contactref element="U$3" pad="SW2"/>
-<wire x1="30.152" y1="86.59" x2="30.152" y2="88.792" width="0.4064" layer="1"/>
-<wire x1="30.152" y1="88.792" x2="30.96" y2="89.6" width="0.4064" layer="1"/>
-<wire x1="30.152" y1="86.59" x2="30.152" y2="81.608" width="0.4064" layer="1"/>
-<wire x1="30.152" y1="81.608" x2="30.48" y2="81.28" width="0.4064" layer="1"/>
+<wire x1="-73.152" y1="105.41" x2="-44.04" y2="96.52" width="0" layer="19" extent="1-1"/>
+<wire x1="-66.04" y1="33.02" x2="-44.04" y2="96.52" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$20">
 <contactref element="D5" pad="A"/>
 <contactref element="SJ5" pad="1"/>
 <contactref element="U$14" pad="SW2"/>
-<wire x1="46.832" y1="17.59" x2="46.832" y2="13.388" width="0.4064" layer="1"/>
-<wire x1="46.832" y1="13.388" x2="46.91" y2="13.31" width="0.4064" layer="1"/>
-<wire x1="46.832" y1="17.59" x2="47.43" y2="20.52" width="0" layer="19" extent="1-1"/>
+<wire x1="-93.57" y1="90.17" x2="-52.832" y2="105.41" width="0" layer="19" extent="1-1"/>
+<wire x1="-85.09" y1="67.31" x2="-93.57" y2="90.17" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$22">
 <contactref element="D6" pad="A"/>
 <contactref element="SJ6" pad="1"/>
 <contactref element="U$10" pad="SW2"/>
-<wire x1="45.088" y1="40.41" x2="47.63" y2="43.52" width="0" layer="19" extent="1-1"/>
-<wire x1="46.95" y1="35.31" x2="45.088" y2="40.41" width="0" layer="19" extent="1-1"/>
+<wire x1="-19.05" y1="67.31" x2="-17.37" y2="96.52" width="0" layer="19" extent="1-1"/>
+<wire x1="-57.912" y1="105.41" x2="-17.37" y2="96.52" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$23">
 <contactref element="D7" pad="A"/>
 <contactref element="SJ7" pad="1"/>
 <contactref element="U$6" pad="SW2"/>
-<wire x1="46.74" y1="65.52" x2="45.992" y2="64.772" width="0.4064" layer="1"/>
-<wire x1="45.992" y1="64.772" x2="45.992" y2="62.59" width="0.4064" layer="1"/>
-<wire x1="45.992" y1="62.59" x2="46" y2="62.582" width="0.4064" layer="1"/>
-<wire x1="46" y1="62.582" x2="46" y2="59" width="0.4064" layer="1"/>
-<wire x1="46" y1="59" x2="46.77" y2="58.23" width="0.4064" layer="1"/>
-<wire x1="46.77" y1="58.23" x2="46.99" y2="58.23" width="0.4064" layer="1"/>
+<wire x1="-62.992" y1="105.41" x2="-26.26" y2="96.52" width="0" layer="19" extent="1-1"/>
+<wire x1="-35.56" y1="50.8" x2="-26.26" y2="96.52" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="COL2">
 <contactref element="D7" pad="C"/>
@@ -2737,64 +2662,49 @@ design rules under a new name.</description>
 <contactref element="D8" pad="C"/>
 <contactref element="SJ8" pad="2"/>
 <contactref element="U$17" pad="30"/>
-<wire x1="44.07" y1="20.52" x2="44.07" y2="18.828" width="0.4064" layer="1"/>
-<wire x1="44.07" y1="18.828" x2="45.308" y2="17.59" width="0.4064" layer="1"/>
-<wire x1="43.38" y1="65.52" x2="43.38" y2="63.678" width="0.4064" layer="1"/>
-<wire x1="43.38" y1="63.678" x2="44.468" y2="62.59" width="0.4064" layer="1"/>
-<wire x1="44.49" y1="89.6" x2="45.548" y2="88.542" width="0.4064" layer="1"/>
-<wire x1="45.548" y1="88.542" x2="45.548" y2="86.59" width="0.4064" layer="1"/>
-<wire x1="44.49" y1="89.6" x2="32.06" y2="118.45" width="0" layer="19" extent="1-1"/>
-<wire x1="43.38" y1="65.52" x2="45.548" y2="86.59" width="0" layer="19" extent="1-1"/>
-<wire x1="44.27" y1="43.52" x2="44.468" y2="62.59" width="0" layer="19" extent="1-1"/>
-<wire x1="46.612" y1="40.41" x2="44.27" y2="43.52" width="0" layer="19" extent="1-1"/>
-<wire x1="44.07" y1="20.52" x2="46.612" y2="40.41" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.62" y1="96.52" x2="-20.73" y2="96.52" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.51" y1="96.52" x2="-29.62" y2="96.52" width="0" layer="19" extent="1-1"/>
+<wire x1="-51.308" y1="105.41" x2="-38.51" y2="96.52" width="0" layer="19" extent="1-1"/>
+<wire x1="-56.388" y1="105.41" x2="-51.308" y2="105.41" width="0" layer="19" extent="1-1"/>
+<wire x1="-61.468" y1="105.41" x2="-56.388" y2="105.41" width="0" layer="19" extent="1-1"/>
+<wire x1="-66.548" y1="105.41" x2="-61.468" y2="105.41" width="0" layer="19" extent="1-1"/>
+<wire x1="-96.93" y1="90.17" x2="-66.548" y2="105.41" width="0" layer="19" extent="1-1"/>
+<wire x1="37.55" y1="126.06" x2="-20.73" y2="96.52" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$25">
 <contactref element="D8" pad="A"/>
 <contactref element="SJ8" pad="1"/>
 <contactref element="U$2" pad="SW2"/>
-<wire x1="47.072" y1="86.59" x2="47.072" y2="81.362" width="0.4064" layer="1"/>
-<wire x1="47.072" y1="81.362" x2="46.99" y2="81.28" width="0.4064" layer="1"/>
-<wire x1="47.072" y1="86.59" x2="47.072" y2="88.822" width="0.4064" layer="1"/>
-<wire x1="47.072" y1="88.822" x2="47.85" y2="89.6" width="0.4064" layer="1"/>
+<wire x1="-68.072" y1="105.41" x2="-35.15" y2="96.52" width="0" layer="19" extent="1-1"/>
+<wire x1="-49.53" y1="33.02" x2="-35.15" y2="96.52" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$6">
 <contactref element="D4" pad="A"/>
 <contactref element="SJ4" pad="1"/>
 <contactref element="U$13" pad="SW2"/>
-<wire x1="64.752" y1="17.59" x2="64.752" y2="17" width="0.4064" layer="1"/>
-<wire x1="64.752" y1="17" x2="64.752" y2="14.642" width="0.4064" layer="1"/>
-<wire x1="64.752" y1="14.642" x2="63.42" y2="13.31" width="0.4064" layer="1"/>
-<wire x1="65.32" y1="20.52" x2="65.32" y2="17.568" width="0.4064" layer="1"/>
-<wire x1="65.32" y1="17.568" x2="64.752" y2="17" width="0.4064" layer="1"/>
+<wire x1="-84.68" y1="90.17" x2="-47.752" y2="105.41" width="0" layer="19" extent="1-1"/>
+<wire x1="-68.58" y1="67.31" x2="-84.68" y2="90.17" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$18">
 <contactref element="D3" pad="A"/>
 <contactref element="SJ3" pad="1"/>
 <contactref element="U$9" pad="SW2"/>
-<wire x1="63.21" y1="43.52" x2="63.21" y2="41.128" width="0.4064" layer="1"/>
-<wire x1="63.21" y1="41.128" x2="63.041" y2="40.959" width="0.4064" layer="1"/>
-<wire x1="63.041" y1="40.959" x2="62.672" y2="40.59" width="0.4064" layer="1"/>
-<wire x1="63.5" y1="35.37" x2="63.5" y2="40.5" width="0.4064" layer="1"/>
-<wire x1="63.5" y1="40.5" x2="63.041" y2="40.959" width="0.4064" layer="1"/>
+<wire x1="-75.79" y1="90.17" x2="-42.672" y2="105.41" width="0" layer="19" extent="1-1"/>
+<wire x1="-85.09" y1="50.8" x2="-75.79" y2="90.17" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$21">
 <contactref element="D2" pad="A"/>
 <contactref element="SJ2" pad="1"/>
 <contactref element="U$5" pad="SW2"/>
-<wire x1="63.1" y1="65.52" x2="63.592" y2="65.028" width="0.4064" layer="1"/>
-<wire x1="63.592" y1="65.028" x2="63.592" y2="62.59" width="0.4064" layer="1"/>
-<wire x1="63.592" y1="62.59" x2="63.592" y2="58.322" width="0.4064" layer="1"/>
-<wire x1="63.592" y1="58.322" x2="63.5" y2="58.23" width="0.4064" layer="1"/>
+<wire x1="-66.9" y1="90.17" x2="-37.592" y2="105.41" width="0" layer="19" extent="1-1"/>
+<wire x1="-19.05" y1="50.8" x2="-37.592" y2="105.41" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$26">
 <contactref element="D1" pad="A"/>
 <contactref element="SJ1" pad="1"/>
 <contactref element="U$1" pad="SW2"/>
-<wire x1="62.99" y1="89.6" x2="62.512" y2="89.122" width="0.4064" layer="1"/>
-<wire x1="62.512" y1="89.122" x2="62.512" y2="86.59" width="0.4064" layer="1"/>
-<wire x1="62.512" y1="86.59" x2="62.512" y2="82.268" width="0.4064" layer="1"/>
-<wire x1="62.512" y1="82.268" x2="63.5" y2="81.28" width="0.4064" layer="1"/>
+<wire x1="-58.01" y1="90.17" x2="-32.512" y2="105.41" width="0" layer="19" extent="1-1"/>
+<wire x1="-33.02" y1="33.02" x2="-58.01" y2="90.17" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="COL1">
 <contactref element="SJ1" pad="2"/>
@@ -2806,20 +2716,14 @@ design rules under a new name.</description>
 <contactref element="SJ3" pad="2"/>
 <contactref element="D2" pad="C"/>
 <contactref element="U$17" pad="29"/>
-<wire x1="61.96" y1="20.52" x2="61.96" y2="18.858" width="0.4064" layer="1"/>
-<wire x1="61.96" y1="18.858" x2="63.228" y2="17.59" width="0.4064" layer="1"/>
-<wire x1="59.74" y1="65.52" x2="59.74" y2="63.26" width="0.4064" layer="1"/>
-<wire x1="60.41" y1="62.59" x2="62.068" y2="62.59" width="0.4064" layer="1"/>
-<wire x1="59.74" y1="63.26" x2="60.41" y2="62.59" width="0.4064" layer="1"/>
-<wire x1="59.63" y1="89.6" x2="60.4" y2="89.6" width="0.4064" layer="1"/>
-<wire x1="60.4" y1="89.6" x2="61" y2="89" width="0.4064" layer="1"/>
-<wire x1="61" y1="89" x2="61" y2="86.602" width="0.4064" layer="1"/>
-<wire x1="61" y1="86.602" x2="60.988" y2="86.59" width="0.4064" layer="1"/>
-<wire x1="59.63" y1="89.6" x2="31.26" y2="118.45" width="0" layer="19" extent="1-1"/>
-<wire x1="59.74" y1="65.52" x2="60.988" y2="86.59" width="0" layer="19" extent="1-1"/>
-<wire x1="59.85" y1="43.52" x2="62.068" y2="62.59" width="0" layer="19" extent="1-1"/>
-<wire x1="61.148" y1="40.59" x2="59.85" y2="43.52" width="0" layer="19" extent="1-1"/>
-<wire x1="61.96" y1="20.52" x2="61.148" y2="40.59" width="0" layer="19" extent="1-1"/>
+<wire x1="-36.068" y1="105.41" x2="-30.988" y2="105.41" width="0" layer="19" extent="1-1"/>
+<wire x1="-41.148" y1="105.41" x2="-36.068" y2="105.41" width="0" layer="19" extent="1-1"/>
+<wire x1="-46.228" y1="105.41" x2="-41.148" y2="105.41" width="0" layer="19" extent="1-1"/>
+<wire x1="-61.37" y1="90.17" x2="-46.228" y2="105.41" width="0" layer="19" extent="1-1"/>
+<wire x1="-70.26" y1="90.17" x2="-61.37" y2="90.17" width="0" layer="19" extent="1-1"/>
+<wire x1="-79.15" y1="90.17" x2="-70.26" y2="90.17" width="0" layer="19" extent="1-1"/>
+<wire x1="-88.04" y1="90.17" x2="-79.15" y2="90.17" width="0" layer="19" extent="1-1"/>
+<wire x1="37.55" y1="125.26" x2="-61.37" y2="90.17" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ROW3">
 <contactref element="U$10" pad="SW1"/>
@@ -2827,21 +2731,10 @@ design rules under a new name.</description>
 <contactref element="U$12" pad="SW1"/>
 <contactref element="U$9" pad="SW1"/>
 <contactref element="U$17" pad="27"/>
-<wire x1="57.15" y1="32.83" x2="46.362925" y2="32.83" width="0.4064" layer="1"/>
-<wire x1="46.362925" y1="32.83" x2="45.743525" y2="33.4494" width="0.4064" layer="1"/>
-<wire x1="45.743525" y1="33.4494" x2="41.2794" y2="33.4494" width="0.4064" layer="1"/>
-<wire x1="41.2794" y1="33.4494" x2="40.6" y2="32.77" width="0.4064" layer="1"/>
-<wire x1="40.6" y1="32.77" x2="29.912925" y2="32.77" width="0.4064" layer="1"/>
-<wire x1="29.912925" y1="32.77" x2="29.233525" y2="33.4494" width="0.4064" layer="1"/>
-<wire x1="29.233525" y1="33.4494" x2="26.566475" y2="33.4494" width="0.4064" layer="1"/>
-<wire x1="26.566475" y1="33.4494" x2="25.887075" y2="32.77" width="0.4064" layer="1"/>
-<wire x1="25.887075" y1="32.77" x2="24.09" y2="32.77" width="0.4064" layer="1"/>
-<wire x1="24.09" y1="32.77" x2="12.402925" y2="32.77" width="0.4064" layer="1"/>
-<wire x1="12.402925" y1="32.77" x2="11.723525" y2="33.4494" width="0.4064" layer="1"/>
-<wire x1="11.723525" y1="33.4494" x2="9.056475" y2="33.4494" width="0.4064" layer="1"/>
-<wire x1="9.056475" y1="33.4494" x2="8.377075" y2="32.77" width="0.4064" layer="1"/>
-<wire x1="8.377075" y1="32.77" x2="6.58" y2="32.77" width="0.4064" layer="1"/>
-<wire x1="24.09" y1="32.77" x2="29.66" y2="118.45" width="0" layer="19" extent="1-1"/>
+<wire x1="-58.42" y1="64.77" x2="-91.44" y2="48.26" width="0" layer="19" extent="1-1"/>
+<wire x1="-41.91" y1="64.77" x2="-58.42" y2="64.77" width="0" layer="19" extent="1-1"/>
+<wire x1="-25.4" y1="64.77" x2="-41.91" y2="64.77" width="0" layer="19" extent="1-1"/>
+<wire x1="37.55" y1="123.66" x2="-25.4" y2="64.77" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ROW4">
 <contactref element="U$13" pad="SW1"/>
@@ -2849,22 +2742,10 @@ design rules under a new name.</description>
 <contactref element="U$14" pad="SW1"/>
 <contactref element="U$15" pad="SW1"/>
 <contactref element="U$17" pad="28"/>
-<wire x1="57.07" y1="10.77" x2="46.382925" y2="10.77" width="0.4064" layer="1"/>
-<wire x1="46.382925" y1="10.77" x2="45.703525" y2="11.4494" width="0.4064" layer="1"/>
-<wire x1="45.703525" y1="11.4494" x2="43.036475" y2="11.4494" width="0.4064" layer="1"/>
-<wire x1="43.036475" y1="11.4494" x2="42.357075" y2="10.77" width="0.4064" layer="1"/>
-<wire x1="42.357075" y1="10.77" x2="40.56" y2="10.77" width="0.4064" layer="1"/>
-<wire x1="40.56" y1="10.77" x2="29.937925" y2="10.77" width="0.4064" layer="1"/>
-<wire x1="29.937925" y1="10.77" x2="29.233525" y2="11.4744" width="0.4064" layer="1"/>
-<wire x1="29.233525" y1="11.4744" x2="26.566475" y2="11.4744" width="0.4064" layer="1"/>
-<wire x1="26.566475" y1="11.4744" x2="25.887075" y2="10.795" width="0.4064" layer="1"/>
-<wire x1="25.887075" y1="10.795" x2="24.09" y2="10.795" width="0.4064" layer="1"/>
-<wire x1="24.09" y1="10.795" x2="12.402925" y2="10.795" width="0.4064" layer="1"/>
-<wire x1="12.402925" y1="10.795" x2="11.723525" y2="11.4744" width="0.4064" layer="1"/>
-<wire x1="11.723525" y1="11.4744" x2="9.056475" y2="11.4744" width="0.4064" layer="1"/>
-<wire x1="9.056475" y1="11.4744" x2="8.377075" y2="10.795" width="0.4064" layer="1"/>
-<wire x1="8.377075" y1="10.795" x2="6.58" y2="10.795" width="0.4064" layer="1"/>
-<wire x1="24.09" y1="10.795" x2="30.46" y2="118.45" width="0" layer="19" extent="1-1"/>
+<wire x1="-41.91" y1="81.28" x2="-25.4" y2="81.28" width="0" layer="19" extent="1-1"/>
+<wire x1="-74.93" y1="64.77" x2="-41.91" y2="81.28" width="0" layer="19" extent="1-1"/>
+<wire x1="-91.44" y1="64.77" x2="-74.93" y2="64.77" width="0" layer="19" extent="1-1"/>
+<wire x1="37.55" y1="124.46" x2="-25.4" y2="81.28" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
 <contactref element="C5" pad="1"/>
@@ -2897,30 +2778,45 @@ design rules under a new name.</description>
 <contactref element="C13" pad="2"/>
 <contactref element="U2" pad="1"/>
 <contactref element="C2" pad="2"/>
-<polygon width="0.4064" layer="1" isolate="0.254" orphans="yes" thermals="no">
-<vertex x="0" y="142"/>
-<vertex x="69" y="142"/>
-<vertex x="69" y="1"/>
-<vertex x="0" y="1"/>
-</polygon>
-<wire x1="30.28" y1="136.775" x2="29.63" y2="136.775" width="0" layer="19" extent="1-1"/>
-<wire x1="30.93" y1="139.5" x2="30.28" y2="136.775" width="0" layer="19" extent="1-1"/>
-<polygon width="0.4064" layer="16">
-<vertex x="0" y="142"/>
-<vertex x="70" y="142"/>
-<vertex x="70" y="0"/>
-<vertex x="0" y="0"/>
-</polygon>
+<wire x1="-91.52" y1="16.51" x2="-94.02" y2="2.01" width="0" layer="19" extent="1-1"/>
+<wire x1="-73.7" y1="2.01" x2="-94.02" y2="2.01" width="0" layer="19" extent="1-1"/>
+<wire x1="-71.2" y1="16.51" x2="-73.7" y2="2.01" width="0" layer="19" extent="1-1"/>
+<wire x1="-53.38" y1="2.01" x2="-73.7" y2="2.01" width="0" layer="19" extent="1-1"/>
+<wire x1="-50.88" y1="16.51" x2="-53.38" y2="2.01" width="0" layer="19" extent="1-1"/>
+<wire x1="25.95" y1="125.26" x2="-50.88" y2="16.51" width="0" layer="19" extent="1-1"/>
+<wire x1="28.55" y1="130.26" x2="25.95" y2="125.26" width="0" layer="19" extent="1-1"/>
+<wire x1="34.95" y1="130.26" x2="28.55" y2="130.26" width="0" layer="19" extent="1-1"/>
+<wire x1="30.15" y1="118.66" x2="25.95" y2="125.26" width="0" layer="19" extent="1-1"/>
+<wire x1="37.55" y1="120.46" x2="30.15" y2="118.66" width="0" layer="19" extent="1-1"/>
+<wire x1="-56.9" y1="72.855" x2="28.55" y2="130.26" width="0" layer="19" extent="1-1"/>
+<wire x1="-60.775" y1="73.63" x2="-56.9" y2="72.855" width="0" layer="19" extent="1-1"/>
+<wire x1="-60.775" y1="74.28" x2="-60.775" y2="73.63" width="0" layer="19" extent="1-1"/>
+<wire x1="-63.5" y1="74.93" x2="-60.775" y2="74.28" width="0" layer="19" extent="1-1"/>
+<wire x1="-63.5" y1="71.245" x2="-60.775" y2="73.63" width="0" layer="19" extent="1-1"/>
+<wire x1="-63.5" y1="78.615" x2="-63.5" y2="74.93" width="0" layer="19" extent="1-1"/>
+<wire x1="-78.845" y1="74.93" x2="-63.5" y2="74.93" width="0" layer="19" extent="1-1"/>
+<wire x1="-65.19" y1="101.6" x2="-63.5" y2="78.615" width="0" layer="19" extent="1-1"/>
+<wire x1="-60.54" y1="101.6" x2="-65.19" y2="101.6" width="0" layer="19" extent="1-1"/>
+<wire x1="-54.19" y1="101.6" x2="-60.54" y2="101.6" width="0" layer="19" extent="1-1"/>
+<wire x1="-47.84" y1="101.6" x2="-54.19" y2="101.6" width="0" layer="19" extent="1-1"/>
+<wire x1="-41.49" y1="101.6" x2="-47.84" y2="101.6" width="0" layer="19" extent="1-1"/>
+<wire x1="-35.14" y1="101.6" x2="-41.49" y2="101.6" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.79" y1="101.6" x2="-35.14" y2="101.6" width="0" layer="19" extent="1-1"/>
+<wire x1="-71.54" y1="101.6" x2="-65.19" y2="101.6" width="0" layer="19" extent="1-1"/>
+<wire x1="-75.42" y1="100.8" x2="-71.54" y2="101.6" width="0" layer="19" extent="1-1"/>
+<wire x1="-79.52" y1="100.8" x2="-75.42" y2="100.8" width="0" layer="19" extent="1-1"/>
+<wire x1="-79.79" y1="105.41" x2="-79.52" y2="100.8" width="0" layer="19" extent="1-1"/>
+<wire x1="-15.24" y1="90.17" x2="-28.79" y2="101.6" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D-">
 <contactref element="U$17" pad="3"/>
 <contactref element="R1" pad="2"/>
-<wire x1="32.86" y1="130.05" x2="32.17" y2="132.98" width="0" layer="19" extent="1-1"/>
+<wire x1="25.95" y1="126.86" x2="-35.98" y2="90.17" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D+">
 <contactref element="U$17" pad="4"/>
 <contactref element="R2" pad="2"/>
-<wire x1="30.17" y1="132.79" x2="32.06" y2="130.05" width="0" layer="19" extent="1-1"/>
+<wire x1="25.95" y1="126.06" x2="-39.79" y2="90.17" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="V_USB">
 <contactref element="C6" pad="2"/>
@@ -2928,10 +2824,10 @@ design rules under a new name.</description>
 <contactref element="CR1" pad="1"/>
 <contactref element="U$17" pad="2"/>
 <contactref element="U$17" pad="7"/>
-<wire x1="39.14" y1="130.4" x2="38.7867" y2="135.97" width="0" layer="19" extent="1-1"/>
-<wire x1="33.66" y1="130.05" x2="39.14" y2="130.4" width="0" layer="19" extent="1-1"/>
-<wire x1="29.66" y1="130.05" x2="33.66" y2="130.05" width="0" layer="19" extent="1-1"/>
-<wire x1="32.23" y1="136.775" x2="38.7867" y2="135.97" width="0" layer="19" extent="1-1"/>
+<wire x1="-60.775" y1="76.23" x2="-46.14" y2="101.6" width="0" layer="19" extent="1-1"/>
+<wire x1="25.95" y1="127.66" x2="-60.775" y2="76.23" width="0" layer="19" extent="1-1"/>
+<wire x1="25.95" y1="123.66" x2="25.95" y2="127.66" width="0" layer="19" extent="1-1"/>
+<wire x1="-30.2133" y1="13.97" x2="25.95" y2="123.66" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VCC">
 <contactref element="C10" pad="2"/>
@@ -2945,21 +2841,21 @@ design rules under a new name.</description>
 <contactref element="C2" pad="1"/>
 <contactref element="U2" pad="2"/>
 <contactref element="R6" pad="2"/>
-<wire x1="54.83" y1="133.59" x2="54.715" y2="138.07" width="0" layer="19" extent="1-1"/>
-<wire x1="48.61" y1="134.145" x2="54.83" y2="133.59" width="0" layer="19" extent="1-1"/>
-<wire x1="36.26" y1="128.25" x2="48.61" y2="134.145" width="0" layer="19" extent="1-1"/>
-<wire x1="40.4" y1="121.56" x2="36.26" y2="128.25" width="0" layer="19" extent="1-1"/>
-<wire x1="36.26" y1="120.25" x2="40.4" y2="121.56" width="0" layer="19" extent="1-1"/>
-<wire x1="27.26" y1="118.45" x2="36.26" y2="120.25" width="0" layer="19" extent="1-1"/>
-<wire x1="27.4" y1="115.51" x2="27.26" y2="118.45" width="0" layer="19" extent="1-1"/>
-<wire x1="21.17" y1="116.3" x2="27.4" y2="115.51" width="0" layer="19" extent="1-1"/>
-<wire x1="24.66" y1="126.65" x2="27.26" y2="118.45" width="0" layer="19" extent="1-1"/>
-<wire x1="19.17" y1="137.22" x2="24.66" y2="126.65" width="0" layer="19" extent="1-1"/>
+<wire x1="-45.3" y1="90.17" x2="-33.44" y2="101.6" width="0" layer="19" extent="1-1"/>
+<wire x1="-47.41" y1="90.17" x2="-45.3" y2="90.17" width="0" layer="19" extent="1-1"/>
+<wire x1="-51.22" y1="90.17" x2="-47.41" y2="90.17" width="0" layer="19" extent="1-1"/>
+<wire x1="-52.49" y1="101.6" x2="-51.22" y2="90.17" width="0" layer="19" extent="1-1"/>
+<wire x1="-54.61" y1="72.855" x2="-51.22" y2="90.17" width="0" layer="19" extent="1-1"/>
+<wire x1="-83.715" y1="74.93" x2="-54.61" y2="72.855" width="0" layer="19" extent="1-1"/>
+<wire x1="27.75" y1="130.26" x2="-54.61" y2="72.855" width="0" layer="19" extent="1-1"/>
+<wire x1="35.75" y1="130.26" x2="27.75" y2="130.26" width="0" layer="19" extent="1-1"/>
+<wire x1="37.55" y1="121.26" x2="35.75" y2="130.26" width="0" layer="19" extent="1-1"/>
+<wire x1="29.35" y1="118.66" x2="37.55" y2="121.26" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AREF">
 <contactref element="C1" pad="2"/>
 <contactref element="U$17" pad="42"/>
-<wire x1="36.26" y1="126.65" x2="40.4" y2="126.91" width="0" layer="19" extent="1-1"/>
+<wire x1="29.35" y1="130.26" x2="-27.09" y2="101.6" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RESET">
 <contactref element="SV2" pad="4"/>
@@ -2967,130 +2863,123 @@ design rules under a new name.</description>
 <contactref element="S2" pad="3"/>
 <contactref element="S2" pad="4"/>
 <contactref element="U$17" pad="13"/>
-<wire x1="15.58" y1="139.4" x2="19.17" y2="138.92" width="0" layer="19" extent="1-1"/>
-<wire x1="11.48" y1="139.4" x2="15.58" y2="139.4" width="0" layer="19" extent="1-1"/>
-<wire x1="24.66" y1="127.45" x2="19.17" y2="138.92" width="0" layer="19" extent="1-1"/>
-<wire x1="3.17" y1="126.78" x2="11.48" y2="139.4" width="0" layer="19" extent="1-1"/>
+<wire x1="-52.92" y1="90.17" x2="-17.78" y2="90.17" width="0" layer="19" extent="1-1"/>
+<wire x1="-75.42" y1="102.4" x2="-52.92" y2="90.17" width="0" layer="19" extent="1-1"/>
+<wire x1="-79.52" y1="102.4" x2="-75.42" y2="102.4" width="0" layer="19" extent="1-1"/>
+<wire x1="28.55" y1="118.66" x2="-17.78" y2="90.17" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="UCAP">
 <contactref element="C5" pad="2"/>
 <contactref element="U$17" pad="6"/>
-<wire x1="30.46" y1="130.05" x2="27.6" y2="132.79" width="0" layer="19" extent="1-1"/>
+<wire x1="25.95" y1="124.46" x2="-39.79" y2="101.6" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SW3">
 <contactref element="VR3" pad="1"/>
 <contactref element="U$17" pad="38"/>
-<wire x1="9.48" y1="108.51" x2="36.26" y2="123.45" width="0" layer="19" extent="1-1"/>
+<wire x1="32.55" y1="130.26" x2="-96.52" y2="16.51" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SW2">
 <contactref element="VR2" pad="1"/>
 <contactref element="U$17" pad="37"/>
-<wire x1="32.8" y1="108.51" x2="36.26" y2="122.65" width="0" layer="19" extent="1-1"/>
+<wire x1="33.35" y1="130.26" x2="-76.2" y2="16.51" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SW1">
 <contactref element="VR1" pad="1"/>
 <contactref element="U$17" pad="36"/>
-<wire x1="36.26" y1="121.85" x2="56.12" y2="108.51" width="0" layer="19" extent="1-1"/>
+<wire x1="34.15" y1="130.26" x2="-55.88" y2="16.51" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="B1">
 <contactref element="VR1" pad="B1"/>
 <contactref element="U$17" pad="18"/>
-<wire x1="24.66" y1="123.45" x2="61.12" y2="94.01" width="0" layer="19" extent="1-1"/>
+<wire x1="32.55" y1="118.66" x2="-50.88" y2="2.01" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="A1">
 <contactref element="VR1" pad="A1"/>
 <contactref element="U$17" pad="19"/>
-<wire x1="24.66" y1="122.65" x2="56.12" y2="94.01" width="0" layer="19" extent="1-1"/>
+<wire x1="33.35" y1="118.66" x2="-55.88" y2="2.01" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="B2">
 <contactref element="VR2" pad="B1"/>
 <contactref element="U$17" pad="21"/>
-<wire x1="37.8" y1="94.01" x2="24.66" y2="121.05" width="0" layer="19" extent="1-1"/>
+<wire x1="34.95" y1="118.66" x2="-71.2" y2="2.01" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="A2">
 <contactref element="VR2" pad="A1"/>
 <contactref element="U$17" pad="20"/>
-<wire x1="32.8" y1="94.01" x2="24.66" y2="121.85" width="0" layer="19" extent="1-1"/>
+<wire x1="34.15" y1="118.66" x2="-76.2" y2="2.01" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="B3">
 <contactref element="VR3" pad="B1"/>
 <contactref element="U$17" pad="8"/>
-<wire x1="14.48" y1="94.01" x2="28.86" y2="130.05" width="0" layer="19" extent="1-1"/>
+<wire x1="25.95" y1="122.86" x2="-91.52" y2="2.01" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="A3">
 <contactref element="VR3" pad="A1"/>
 <contactref element="U$17" pad="12"/>
-<wire x1="9.48" y1="94.01" x2="24.66" y2="128.25" width="0" layer="19" extent="1-1"/>
+<wire x1="27.75" y1="118.66" x2="-96.52" y2="2.01" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MISO">
 <contactref element="SV2" pad="1"/>
 <contactref element="U$17" pad="11"/>
-<wire x1="3.17" y1="134.4" x2="26.46" y2="130.05" width="0" layer="19" extent="1-1"/>
+<wire x1="25.95" y1="120.46" x2="-25.4" y2="90.17" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MOSI">
 <contactref element="SV2" pad="3"/>
 <contactref element="U$17" pad="10"/>
-<wire x1="3.17" y1="129.32" x2="27.26" y2="130.05" width="0" layer="19" extent="1-1"/>
+<wire x1="25.95" y1="121.26" x2="-20.32" y2="90.17" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SCK">
 <contactref element="SV2" pad="2"/>
 <contactref element="U$17" pad="9"/>
-<wire x1="3.17" y1="131.86" x2="28.06" y2="130.05" width="0" layer="19" extent="1-1"/>
+<wire x1="25.95" y1="122.06" x2="-22.86" y2="90.17" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="LED1" pad="C"/>
 <contactref element="U$17" pad="22"/>
-<wire x1="19.17" y1="116.8" x2="24.66" y2="120.25" width="0" layer="19" extent="1-1"/>
+<wire x1="35.75" y1="118.66" x2="-32.8" y2="90.17" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
 <contactref element="LED1" pad="A"/>
 <contactref element="R4" pad="2"/>
-<wire x1="19.17" y1="114.7" x2="21.17" y2="114.6" width="0" layer="19" extent="1-1"/>
+<wire x1="-43.6" y1="90.17" x2="-30.7" y2="90.17" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$24">
 <contactref element="C13" pad="1"/>
 <contactref element="U$17" pad="16"/>
 <contactref element="Q1" pad="1"/>
-<wire x1="15.4" y1="126.76" x2="24.66" y2="125.05" width="0" layer="19" extent="1-1"/>
-<wire x1="10.66" y1="129.806" x2="15.4" y2="126.76" width="0" layer="19" extent="1-1"/>
+<wire x1="-98.806" y1="73.66" x2="-73.24" y2="101.6" width="0" layer="19" extent="1-1"/>
+<wire x1="30.95" y1="118.66" x2="-98.806" y2="73.66" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$27">
 <contactref element="C12" pad="1"/>
 <contactref element="U$17" pad="17"/>
 <contactref element="Q1" pad="2"/>
-<wire x1="15.4" y1="122.89" x2="24.66" y2="124.25" width="0" layer="19" extent="1-1"/>
-<wire x1="10.66" y1="120.154" x2="15.4" y2="122.89" width="0" layer="19" extent="1-1"/>
+<wire x1="-89.154" y1="73.66" x2="-66.89" y2="101.6" width="0" layer="19" extent="1-1"/>
+<wire x1="31.75" y1="118.66" x2="-89.154" y2="73.66" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="J2" pad="D-"/>
 <contactref element="R1" pad="1"/>
-<wire x1="32.17" y1="134.68" x2="31.58" y2="136.775" width="0" layer="19" extent="1-1"/>
+<wire x1="-60.775" y1="75.58" x2="-37.68" y2="90.17" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 <contactref element="R2" pad="1"/>
 <contactref element="J2" pad="D+"/>
-<wire x1="30.17" y1="134.49" x2="30.93" y2="136.775" width="0" layer="19" extent="1-1"/>
+<wire x1="-60.775" y1="74.93" x2="-41.49" y2="90.17" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$11">
 <contactref element="R6" pad="1"/>
 <contactref element="LED3" pad="A"/>
-<wire x1="54.69" y1="129.59" x2="54.83" y2="131.89" width="0" layer="19" extent="1-1"/>
+<wire x1="-77.69" y1="105.41" x2="-49.11" y2="90.17" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$4">
 <contactref element="U2" pad="3"/>
 <contactref element="CR1" pad="2"/>
 <contactref element="C7" pad="2"/>
-<wire x1="43.3333" y1="135.97" x2="46.32" y2="134.145" width="0" layer="19" extent="1-1"/>
-<wire x1="43.4" y1="132.16" x2="46.32" y2="134.145" width="0" layer="19" extent="1-1"/>
+<wire x1="-52.32" y1="72.855" x2="-58.84" y2="101.6" width="0" layer="19" extent="1-1"/>
+<wire x1="-25.6667" y1="13.97" x2="-52.32" y2="72.855" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
-<mfgpreviewcolors>
-<mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
-<mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
-<mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
-<mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
-<mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
-</mfgpreviewcolors>
 </board>
 </drawing>
 </eagle>
