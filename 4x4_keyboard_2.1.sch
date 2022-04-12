@@ -10689,53 +10689,53 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 <attribute name="NAME" x="78.74" y="254" size="1.778" layer="95"/>
 <attribute name="VALUE" x="78.74" y="246.38" size="1.778" layer="96"/>
 </instance>
-<instance part="D5" gate="G$1" x="116.84" y="251.46" smashed="yes">
-<attribute name="NAME" x="111.76" y="254" size="1.778" layer="95"/>
-<attribute name="VALUE" x="111.76" y="246.38" size="1.778" layer="96"/>
+<instance part="D5" gate="G$1" x="129.54" y="251.46" smashed="yes">
+<attribute name="NAME" x="124.46" y="254" size="1.778" layer="95"/>
+<attribute name="VALUE" x="124.46" y="246.38" size="1.778" layer="96"/>
 </instance>
-<instance part="D6" gate="G$1" x="116.84" y="279.4" smashed="yes">
-<attribute name="NAME" x="111.76" y="281.94" size="1.778" layer="95"/>
-<attribute name="VALUE" x="111.76" y="274.32" size="1.778" layer="96"/>
+<instance part="D6" gate="G$1" x="129.54" y="279.4" smashed="yes">
+<attribute name="NAME" x="124.46" y="281.94" size="1.778" layer="95"/>
+<attribute name="VALUE" x="124.46" y="274.32" size="1.778" layer="96"/>
 </instance>
-<instance part="D7" gate="G$1" x="116.84" y="307.34" smashed="yes">
-<attribute name="NAME" x="111.76" y="309.88" size="1.778" layer="95"/>
-<attribute name="VALUE" x="111.76" y="302.26" size="1.778" layer="96"/>
+<instance part="D7" gate="G$1" x="129.54" y="307.34" smashed="yes">
+<attribute name="NAME" x="124.46" y="309.88" size="1.778" layer="95"/>
+<attribute name="VALUE" x="124.46" y="302.26" size="1.778" layer="96"/>
 </instance>
-<instance part="D8" gate="G$1" x="116.84" y="335.28" smashed="yes">
-<attribute name="NAME" x="111.76" y="337.82" size="1.778" layer="95"/>
-<attribute name="VALUE" x="111.76" y="330.2" size="1.778" layer="96"/>
+<instance part="D8" gate="G$1" x="129.54" y="335.28" smashed="yes">
+<attribute name="NAME" x="124.46" y="337.82" size="1.778" layer="95"/>
+<attribute name="VALUE" x="124.46" y="330.2" size="1.778" layer="96"/>
 </instance>
-<instance part="D9" gate="G$1" x="147.32" y="335.28" smashed="yes">
-<attribute name="NAME" x="142.24" y="337.82" size="1.778" layer="95"/>
-<attribute name="VALUE" x="142.24" y="330.2" size="1.778" layer="96"/>
+<instance part="D9" gate="G$1" x="170.18" y="335.28" smashed="yes">
+<attribute name="NAME" x="165.1" y="337.82" size="1.778" layer="95"/>
+<attribute name="VALUE" x="165.1" y="330.2" size="1.778" layer="96"/>
 </instance>
-<instance part="D10" gate="G$1" x="147.32" y="307.34" smashed="yes">
-<attribute name="NAME" x="142.24" y="309.88" size="1.778" layer="95"/>
-<attribute name="VALUE" x="142.24" y="302.26" size="1.778" layer="96"/>
+<instance part="D10" gate="G$1" x="170.18" y="307.34" smashed="yes">
+<attribute name="NAME" x="165.1" y="309.88" size="1.778" layer="95"/>
+<attribute name="VALUE" x="165.1" y="302.26" size="1.778" layer="96"/>
 </instance>
-<instance part="D11" gate="G$1" x="147.32" y="279.4" smashed="yes">
-<attribute name="NAME" x="142.24" y="281.94" size="1.778" layer="95"/>
-<attribute name="VALUE" x="142.24" y="274.32" size="1.778" layer="96"/>
+<instance part="D11" gate="G$1" x="170.18" y="279.4" smashed="yes">
+<attribute name="NAME" x="165.1" y="281.94" size="1.778" layer="95"/>
+<attribute name="VALUE" x="165.1" y="274.32" size="1.778" layer="96"/>
 </instance>
-<instance part="D12" gate="G$1" x="147.32" y="251.46" smashed="yes">
-<attribute name="NAME" x="142.24" y="254" size="1.778" layer="95"/>
-<attribute name="VALUE" x="142.24" y="246.38" size="1.778" layer="96"/>
+<instance part="D12" gate="G$1" x="170.18" y="251.46" smashed="yes">
+<attribute name="NAME" x="165.1" y="254" size="1.778" layer="95"/>
+<attribute name="VALUE" x="165.1" y="246.38" size="1.778" layer="96"/>
 </instance>
-<instance part="D13" gate="G$1" x="180.34" y="251.46" smashed="yes">
-<attribute name="NAME" x="175.26" y="254" size="1.778" layer="95"/>
-<attribute name="VALUE" x="175.26" y="246.38" size="1.778" layer="96"/>
+<instance part="D13" gate="G$1" x="213.36" y="251.46" smashed="yes">
+<attribute name="NAME" x="208.28" y="254" size="1.778" layer="95"/>
+<attribute name="VALUE" x="208.28" y="246.38" size="1.778" layer="96"/>
 </instance>
-<instance part="D14" gate="G$1" x="180.34" y="279.4" smashed="yes">
-<attribute name="NAME" x="175.26" y="281.94" size="1.778" layer="95"/>
-<attribute name="VALUE" x="175.26" y="274.32" size="1.778" layer="96"/>
+<instance part="D14" gate="G$1" x="213.36" y="279.4" smashed="yes">
+<attribute name="NAME" x="208.28" y="281.94" size="1.778" layer="95"/>
+<attribute name="VALUE" x="208.28" y="274.32" size="1.778" layer="96"/>
 </instance>
-<instance part="D15" gate="G$1" x="180.34" y="307.34" smashed="yes">
-<attribute name="NAME" x="175.26" y="309.88" size="1.778" layer="95"/>
-<attribute name="VALUE" x="175.26" y="302.26" size="1.778" layer="96"/>
+<instance part="D15" gate="G$1" x="213.36" y="307.34" smashed="yes">
+<attribute name="NAME" x="208.28" y="309.88" size="1.778" layer="95"/>
+<attribute name="VALUE" x="208.28" y="302.26" size="1.778" layer="96"/>
 </instance>
-<instance part="D16" gate="G$1" x="180.34" y="335.28" smashed="yes">
-<attribute name="NAME" x="175.26" y="337.82" size="1.778" layer="95"/>
-<attribute name="VALUE" x="175.26" y="330.2" size="1.778" layer="96"/>
+<instance part="D16" gate="G$1" x="213.36" y="335.28" smashed="yes">
+<attribute name="NAME" x="208.28" y="337.82" size="1.778" layer="95"/>
+<attribute name="VALUE" x="208.28" y="330.2" size="1.778" layer="96"/>
 </instance>
 <instance part="SJ1" gate="1" x="83.82" y="340.36" smashed="yes">
 <attribute name="NAME" x="81.28" y="342.9" size="1.778" layer="95"/>
@@ -10753,53 +10753,53 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 <attribute name="NAME" x="81.28" y="259.08" size="1.778" layer="95"/>
 <attribute name="VALUE" x="81.28" y="252.73" size="1.778" layer="96"/>
 </instance>
-<instance part="SJ5" gate="1" x="116.84" y="256.54" smashed="yes">
-<attribute name="NAME" x="114.3" y="259.08" size="1.778" layer="95"/>
-<attribute name="VALUE" x="114.3" y="252.73" size="1.778" layer="96"/>
+<instance part="SJ5" gate="1" x="129.54" y="256.54" smashed="yes">
+<attribute name="NAME" x="127" y="259.08" size="1.778" layer="95"/>
+<attribute name="VALUE" x="127" y="252.73" size="1.778" layer="96"/>
 </instance>
-<instance part="SJ6" gate="1" x="116.84" y="284.48" smashed="yes">
-<attribute name="NAME" x="114.3" y="287.02" size="1.778" layer="95"/>
-<attribute name="VALUE" x="114.3" y="280.67" size="1.778" layer="96"/>
+<instance part="SJ6" gate="1" x="129.54" y="284.48" smashed="yes">
+<attribute name="NAME" x="127" y="287.02" size="1.778" layer="95"/>
+<attribute name="VALUE" x="127" y="280.67" size="1.778" layer="96"/>
 </instance>
-<instance part="SJ7" gate="1" x="116.84" y="312.42" smashed="yes">
-<attribute name="NAME" x="114.3" y="314.96" size="1.778" layer="95"/>
-<attribute name="VALUE" x="114.3" y="308.61" size="1.778" layer="96"/>
+<instance part="SJ7" gate="1" x="129.54" y="312.42" smashed="yes">
+<attribute name="NAME" x="127" y="314.96" size="1.778" layer="95"/>
+<attribute name="VALUE" x="127" y="308.61" size="1.778" layer="96"/>
 </instance>
-<instance part="SJ8" gate="1" x="116.84" y="340.36" smashed="yes">
-<attribute name="NAME" x="114.3" y="342.9" size="1.778" layer="95"/>
-<attribute name="VALUE" x="114.3" y="336.55" size="1.778" layer="96"/>
+<instance part="SJ8" gate="1" x="129.54" y="340.36" smashed="yes">
+<attribute name="NAME" x="127" y="342.9" size="1.778" layer="95"/>
+<attribute name="VALUE" x="127" y="336.55" size="1.778" layer="96"/>
 </instance>
-<instance part="SJ9" gate="1" x="147.32" y="340.36" smashed="yes">
-<attribute name="NAME" x="144.78" y="342.9" size="1.778" layer="95"/>
-<attribute name="VALUE" x="144.78" y="336.55" size="1.778" layer="96"/>
+<instance part="SJ9" gate="1" x="170.18" y="340.36" smashed="yes">
+<attribute name="NAME" x="167.64" y="342.9" size="1.778" layer="95"/>
+<attribute name="VALUE" x="167.64" y="336.55" size="1.778" layer="96"/>
 </instance>
-<instance part="SJ10" gate="1" x="147.32" y="312.42" smashed="yes">
-<attribute name="NAME" x="144.78" y="314.96" size="1.778" layer="95"/>
-<attribute name="VALUE" x="144.78" y="308.61" size="1.778" layer="96"/>
+<instance part="SJ10" gate="1" x="170.18" y="312.42" smashed="yes">
+<attribute name="NAME" x="167.64" y="314.96" size="1.778" layer="95"/>
+<attribute name="VALUE" x="167.64" y="308.61" size="1.778" layer="96"/>
 </instance>
-<instance part="SJ11" gate="1" x="147.32" y="284.48" smashed="yes">
-<attribute name="NAME" x="144.78" y="287.02" size="1.778" layer="95"/>
-<attribute name="VALUE" x="144.78" y="280.67" size="1.778" layer="96"/>
+<instance part="SJ11" gate="1" x="170.18" y="284.48" smashed="yes">
+<attribute name="NAME" x="167.64" y="287.02" size="1.778" layer="95"/>
+<attribute name="VALUE" x="167.64" y="280.67" size="1.778" layer="96"/>
 </instance>
-<instance part="SJ12" gate="1" x="147.32" y="256.54" smashed="yes">
-<attribute name="NAME" x="144.78" y="259.08" size="1.778" layer="95"/>
-<attribute name="VALUE" x="144.78" y="252.73" size="1.778" layer="96"/>
+<instance part="SJ12" gate="1" x="170.18" y="256.54" smashed="yes">
+<attribute name="NAME" x="167.64" y="259.08" size="1.778" layer="95"/>
+<attribute name="VALUE" x="167.64" y="252.73" size="1.778" layer="96"/>
 </instance>
-<instance part="SJ13" gate="1" x="180.34" y="256.54" smashed="yes">
-<attribute name="NAME" x="177.8" y="259.08" size="1.778" layer="95"/>
-<attribute name="VALUE" x="177.8" y="252.73" size="1.778" layer="96"/>
+<instance part="SJ13" gate="1" x="213.36" y="256.54" smashed="yes">
+<attribute name="NAME" x="210.82" y="259.08" size="1.778" layer="95"/>
+<attribute name="VALUE" x="210.82" y="252.73" size="1.778" layer="96"/>
 </instance>
-<instance part="SJ14" gate="1" x="180.34" y="284.48" smashed="yes">
-<attribute name="NAME" x="177.8" y="287.02" size="1.778" layer="95"/>
-<attribute name="VALUE" x="177.8" y="280.67" size="1.778" layer="96"/>
+<instance part="SJ14" gate="1" x="213.36" y="284.48" smashed="yes">
+<attribute name="NAME" x="210.82" y="287.02" size="1.778" layer="95"/>
+<attribute name="VALUE" x="210.82" y="280.67" size="1.778" layer="96"/>
 </instance>
-<instance part="SJ15" gate="1" x="180.34" y="312.42" smashed="yes">
-<attribute name="NAME" x="177.8" y="314.96" size="1.778" layer="95"/>
-<attribute name="VALUE" x="177.8" y="308.61" size="1.778" layer="96"/>
+<instance part="SJ15" gate="1" x="213.36" y="312.42" smashed="yes">
+<attribute name="NAME" x="210.82" y="314.96" size="1.778" layer="95"/>
+<attribute name="VALUE" x="210.82" y="308.61" size="1.778" layer="96"/>
 </instance>
-<instance part="SJ16" gate="1" x="180.34" y="340.36" smashed="yes">
-<attribute name="NAME" x="177.8" y="342.9" size="1.778" layer="95"/>
-<attribute name="VALUE" x="177.8" y="336.55" size="1.778" layer="96"/>
+<instance part="SJ16" gate="1" x="213.36" y="340.36" smashed="yes">
+<attribute name="NAME" x="210.82" y="342.9" size="1.778" layer="95"/>
+<attribute name="VALUE" x="210.82" y="336.55" size="1.778" layer="96"/>
 </instance>
 <instance part="C10" gate="G$1" x="-81.28" y="325.12" smashed="yes" rot="R180">
 <attribute name="NAME" x="-80.772" y="325.12" size="1.778" layer="95"/>
@@ -10896,14 +10896,14 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 <instance part="U$1" gate="G$1" x="66.04" y="330.2" smashed="yes" rot="R180">
 <attribute name="NAME" x="71.12" y="337.82" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="U$2" gate="G$1" x="96.52" y="330.2" smashed="yes" rot="R180">
-<attribute name="NAME" x="101.6" y="337.82" size="1.778" layer="95" rot="R180"/>
+<instance part="U$2" gate="G$1" x="109.22" y="330.2" smashed="yes" rot="R180">
+<attribute name="NAME" x="114.3" y="337.82" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="U$3" gate="G$1" x="129.54" y="330.2" smashed="yes" rot="R180">
-<attribute name="NAME" x="134.62" y="337.82" size="1.778" layer="95" rot="R180"/>
+<instance part="U$3" gate="G$1" x="152.4" y="330.2" smashed="yes" rot="R180">
+<attribute name="NAME" x="157.48" y="337.82" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="U$4" gate="G$1" x="160.02" y="330.2" smashed="yes" rot="R180">
-<attribute name="NAME" x="165.1" y="337.82" size="1.778" layer="95" rot="R180"/>
+<instance part="U$4" gate="G$1" x="193.04" y="330.2" smashed="yes" rot="R180">
+<attribute name="NAME" x="198.12" y="337.82" size="1.778" layer="95" rot="R180"/>
 </instance>
 <instance part="U$5" gate="G$1" x="68.58" y="302.26" smashed="yes" rot="R180">
 <attribute name="NAME" x="73.66" y="309.88" size="1.778" layer="95" rot="R180"/>
@@ -10914,32 +10914,32 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 <instance part="U$13" gate="G$1" x="68.58" y="246.38" smashed="yes" rot="R180">
 <attribute name="NAME" x="73.66" y="254" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="U$6" gate="G$1" x="96.52" y="302.26" smashed="yes" rot="R180">
-<attribute name="NAME" x="101.6" y="309.88" size="1.778" layer="95" rot="R180"/>
+<instance part="U$6" gate="G$1" x="109.22" y="302.26" smashed="yes" rot="R180">
+<attribute name="NAME" x="114.3" y="309.88" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="U$7" gate="G$1" x="129.54" y="302.26" smashed="yes" rot="R180">
-<attribute name="NAME" x="134.62" y="309.88" size="1.778" layer="95" rot="R180"/>
+<instance part="U$7" gate="G$1" x="152.4" y="302.26" smashed="yes" rot="R180">
+<attribute name="NAME" x="157.48" y="309.88" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="U$8" gate="G$1" x="160.02" y="302.26" smashed="yes" rot="R180">
-<attribute name="NAME" x="165.1" y="309.88" size="1.778" layer="95" rot="R180"/>
+<instance part="U$8" gate="G$1" x="193.04" y="302.26" smashed="yes" rot="R180">
+<attribute name="NAME" x="198.12" y="309.88" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="U$10" gate="G$1" x="96.52" y="271.78" smashed="yes" rot="R180">
-<attribute name="NAME" x="101.6" y="279.4" size="1.778" layer="95" rot="R180"/>
+<instance part="U$10" gate="G$1" x="109.22" y="271.78" smashed="yes" rot="R180">
+<attribute name="NAME" x="114.3" y="279.4" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="U$11" gate="G$1" x="129.54" y="271.78" smashed="yes" rot="R180">
-<attribute name="NAME" x="134.62" y="279.4" size="1.778" layer="95" rot="R180"/>
+<instance part="U$11" gate="G$1" x="152.4" y="271.78" smashed="yes" rot="R180">
+<attribute name="NAME" x="157.48" y="279.4" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="U$12" gate="G$1" x="162.56" y="271.78" smashed="yes" rot="R180">
-<attribute name="NAME" x="167.64" y="279.4" size="1.778" layer="95" rot="R180"/>
+<instance part="U$12" gate="G$1" x="195.58" y="271.78" smashed="yes" rot="R180">
+<attribute name="NAME" x="200.66" y="279.4" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="U$14" gate="G$1" x="96.52" y="246.38" smashed="yes" rot="R180">
-<attribute name="NAME" x="101.6" y="254" size="1.778" layer="95" rot="R180"/>
+<instance part="U$14" gate="G$1" x="109.22" y="246.38" smashed="yes" rot="R180">
+<attribute name="NAME" x="114.3" y="254" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="U$15" gate="G$1" x="129.54" y="246.38" smashed="yes" rot="R180">
-<attribute name="NAME" x="134.62" y="254" size="1.778" layer="95" rot="R180"/>
+<instance part="U$15" gate="G$1" x="152.4" y="246.38" smashed="yes" rot="R180">
+<attribute name="NAME" x="157.48" y="254" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="U$16" gate="G$1" x="160.02" y="246.38" smashed="yes" rot="R180">
-<attribute name="NAME" x="165.1" y="254" size="1.778" layer="95" rot="R180"/>
+<instance part="U$16" gate="G$1" x="193.04" y="246.38" smashed="yes" rot="R180">
+<attribute name="NAME" x="198.12" y="254" size="1.778" layer="95" rot="R180"/>
 </instance>
 <instance part="U$17" gate="G$1" x="-5.08" y="294.64" smashed="yes">
 <attribute name="NAME" x="-20.32" y="332.74" size="1.778" layer="95"/>
@@ -11064,20 +11064,20 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 <segment>
 <wire x1="76.2" y1="322.58" x2="60.96" y2="322.58" width="0.1524" layer="91"/>
 <junction x="76.2" y="322.58"/>
-<wire x1="76.2" y1="322.58" x2="106.68" y2="322.58" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="322.58" x2="119.38" y2="322.58" width="0.1524" layer="91"/>
 <label x="60.96" y="322.58" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="U$1" gate="G$1" pin="PIN-1"/>
-<wire x1="106.68" y1="322.58" x2="139.7" y2="322.58" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="322.58" x2="170.18" y2="322.58" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="322.58" x2="162.56" y2="322.58" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="322.58" x2="203.2" y2="322.58" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="327.66" x2="76.2" y2="322.58" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="PIN-1"/>
-<wire x1="106.68" y1="327.66" x2="106.68" y2="322.58" width="0.1524" layer="91"/>
-<junction x="106.68" y="322.58"/>
+<wire x1="119.38" y1="327.66" x2="119.38" y2="322.58" width="0.1524" layer="91"/>
+<junction x="119.38" y="322.58"/>
 <pinref part="U$3" gate="G$1" pin="PIN-1"/>
-<wire x1="139.7" y1="327.66" x2="139.7" y2="322.58" width="0.1524" layer="91"/>
-<junction x="139.7" y="322.58"/>
+<wire x1="162.56" y1="327.66" x2="162.56" y2="322.58" width="0.1524" layer="91"/>
+<junction x="162.56" y="322.58"/>
 <pinref part="U$4" gate="G$1" pin="PIN-1"/>
-<wire x1="170.18" y1="327.66" x2="170.18" y2="322.58" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="327.66" x2="203.2" y2="322.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$17" gate="G$1" pin="PD4(ADC8)"/>
@@ -11087,22 +11087,22 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 </net>
 <net name="ROW2" class="0">
 <segment>
-<wire x1="170.18" y1="294.64" x2="139.7" y2="294.64" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="294.64" x2="106.68" y2="294.64" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="294.64" x2="78.74" y2="294.64" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="294.64" x2="162.56" y2="294.64" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="294.64" x2="119.38" y2="294.64" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="294.64" x2="78.74" y2="294.64" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="294.64" x2="63.5" y2="294.64" width="0.1524" layer="91"/>
 <junction x="78.74" y="294.64"/>
 <label x="63.5" y="294.64" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="U$5" gate="G$1" pin="PIN-1"/>
 <wire x1="78.74" y1="299.72" x2="78.74" y2="294.64" width="0.1524" layer="91"/>
 <pinref part="U$6" gate="G$1" pin="PIN-1"/>
-<wire x1="106.68" y1="299.72" x2="106.68" y2="294.64" width="0.1524" layer="91"/>
-<junction x="106.68" y="294.64"/>
+<wire x1="119.38" y1="299.72" x2="119.38" y2="294.64" width="0.1524" layer="91"/>
+<junction x="119.38" y="294.64"/>
 <pinref part="U$7" gate="G$1" pin="PIN-1"/>
-<wire x1="139.7" y1="299.72" x2="139.7" y2="294.64" width="0.1524" layer="91"/>
-<junction x="139.7" y="294.64"/>
+<wire x1="162.56" y1="299.72" x2="162.56" y2="294.64" width="0.1524" layer="91"/>
+<junction x="162.56" y="294.64"/>
 <pinref part="U$8" gate="G$1" pin="PIN-1"/>
-<wire x1="170.18" y1="299.72" x2="170.18" y2="294.64" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="299.72" x2="203.2" y2="294.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$17" gate="G$1" pin="PD6(ADC9)"/>
@@ -11113,51 +11113,61 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 <net name="N$8" class="0">
 <segment>
 <pinref part="D16" gate="G$1" pin="A"/>
-<wire x1="175.26" y1="335.28" x2="175.26" y2="332.74" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="335.28" x2="208.28" y2="332.74" width="0.1524" layer="91"/>
 <pinref part="SJ16" gate="1" pin="1"/>
-<wire x1="175.26" y1="340.36" x2="175.26" y2="335.28" width="0.1524" layer="91"/>
-<junction x="175.26" y="335.28"/>
+<wire x1="208.28" y1="340.36" x2="208.28" y2="335.28" width="0.1524" layer="91"/>
+<junction x="208.28" y="335.28"/>
 <pinref part="U$4" gate="G$1" pin="PIN-2"/>
-<wire x1="170.18" y1="332.74" x2="175.26" y2="332.74" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="332.74" x2="208.28" y2="332.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
 <pinref part="SJ15" gate="1" pin="1"/>
 <pinref part="D15" gate="G$1" pin="A"/>
-<wire x1="175.26" y1="312.42" x2="175.26" y2="307.34" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="307.34" x2="175.26" y2="304.8" width="0.1524" layer="91"/>
-<junction x="175.26" y="307.34"/>
+<wire x1="208.28" y1="312.42" x2="208.28" y2="307.34" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="307.34" x2="208.28" y2="304.8" width="0.1524" layer="91"/>
+<junction x="208.28" y="307.34"/>
 <pinref part="U$8" gate="G$1" pin="PIN-2"/>
-<wire x1="170.18" y1="304.8" x2="175.26" y2="304.8" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="304.8" x2="208.28" y2="304.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="COL4" class="0">
 <segment>
-<pinref part="D15" gate="G$1" pin="K"/>
-<pinref part="SJ15" gate="1" pin="2"/>
-<wire x1="185.42" y1="307.34" x2="185.42" y2="312.42" width="0.1524" layer="91"/>
 <pinref part="SJ16" gate="1" pin="2"/>
 <pinref part="D16" gate="G$1" pin="K"/>
-<wire x1="185.42" y1="340.36" x2="185.42" y2="335.28" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="312.42" x2="185.42" y2="335.28" width="0.1524" layer="91"/>
-<junction x="185.42" y="312.42"/>
-<junction x="185.42" y="335.28"/>
-<wire x1="185.42" y1="340.36" x2="185.42" y2="347.98" width="0.1524" layer="91"/>
-<junction x="185.42" y="340.36"/>
-<pinref part="D14" gate="G$1" pin="K"/>
+<wire x1="218.44" y1="340.36" x2="218.44" y2="337.82" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="337.82" x2="218.44" y2="335.28" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="340.36" x2="218.44" y2="347.98" width="0.1524" layer="91"/>
+<junction x="218.44" y="340.36"/>
+<label x="218.44" y="347.98" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="SJ15" gate="1" pin="2"/>
+<pinref part="D15" gate="G$1" pin="K"/>
+<wire x1="218.44" y1="307.34" x2="218.44" y2="309.88" width="0.1524" layer="91"/>
 <pinref part="SJ14" gate="1" pin="2"/>
-<wire x1="185.42" y1="279.4" x2="185.42" y2="284.48" width="0.1524" layer="91"/>
-<pinref part="D13" gate="G$1" pin="K"/>
+<pinref part="D14" gate="G$1" pin="K"/>
+<wire x1="218.44" y1="309.88" x2="218.44" y2="312.42" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="279.4" x2="218.44" y2="281.94" width="0.1524" layer="91"/>
 <pinref part="SJ13" gate="1" pin="2"/>
-<wire x1="185.42" y1="251.46" x2="185.42" y2="256.54" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="279.4" x2="185.42" y2="256.54" width="0.1524" layer="91"/>
-<junction x="185.42" y="279.4"/>
-<junction x="185.42" y="256.54"/>
-<wire x1="185.42" y1="307.34" x2="185.42" y2="284.48" width="0.1524" layer="91"/>
-<junction x="185.42" y="307.34"/>
-<junction x="185.42" y="284.48"/>
-<label x="185.42" y="347.98" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="D13" gate="G$1" pin="K"/>
+<wire x1="218.44" y1="281.94" x2="218.44" y2="284.48" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="251.46" x2="218.44" y2="254" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="254" x2="218.44" y2="256.54" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="254" x2="226.06" y2="254" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="254" x2="226.06" y2="281.94" width="0.1524" layer="91"/>
+<junction x="218.44" y="254"/>
+<wire x1="226.06" y1="281.94" x2="226.06" y2="309.88" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="309.88" x2="226.06" y2="337.82" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="337.82" x2="226.06" y2="347.98" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="281.94" x2="226.06" y2="281.94" width="0.1524" layer="91"/>
+<junction x="218.44" y="281.94"/>
+<junction x="226.06" y="281.94"/>
+<wire x1="218.44" y1="309.88" x2="226.06" y2="309.88" width="0.1524" layer="91"/>
+<junction x="218.44" y="309.88"/>
+<junction x="226.06" y="309.88"/>
+<wire x1="218.44" y1="337.82" x2="226.06" y2="337.82" width="0.1524" layer="91"/>
+<junction x="218.44" y="337.82"/>
+<junction x="226.06" y="337.82"/>
 </segment>
 <segment>
 <pinref part="U$17" gate="G$1" pin="PC7"/>
@@ -11169,72 +11179,82 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 <segment>
 <pinref part="D14" gate="G$1" pin="A"/>
 <pinref part="SJ14" gate="1" pin="1"/>
-<wire x1="175.26" y1="279.4" x2="175.26" y2="284.48" width="0.1524" layer="91"/>
-<junction x="175.26" y="279.4"/>
+<wire x1="208.28" y1="279.4" x2="208.28" y2="284.48" width="0.1524" layer="91"/>
+<junction x="208.28" y="279.4"/>
 <pinref part="U$12" gate="G$1" pin="PIN-2"/>
-<wire x1="172.72" y1="274.32" x2="175.26" y2="274.32" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="274.32" x2="175.26" y2="279.4" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="274.32" x2="208.28" y2="274.32" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="274.32" x2="208.28" y2="279.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
 <pinref part="D13" gate="G$1" pin="A"/>
-<wire x1="175.26" y1="248.92" x2="175.26" y2="251.46" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="248.92" x2="208.28" y2="251.46" width="0.1524" layer="91"/>
 <pinref part="SJ13" gate="1" pin="1"/>
-<wire x1="175.26" y1="251.46" x2="175.26" y2="256.54" width="0.1524" layer="91"/>
-<junction x="175.26" y="251.46"/>
+<wire x1="208.28" y1="251.46" x2="208.28" y2="256.54" width="0.1524" layer="91"/>
+<junction x="208.28" y="251.46"/>
 <pinref part="U$16" gate="G$1" pin="PIN-2"/>
-<wire x1="170.18" y1="248.92" x2="175.26" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="248.92" x2="208.28" y2="248.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
 <pinref part="D11" gate="G$1" pin="A"/>
-<wire x1="142.24" y1="274.32" x2="142.24" y2="279.4" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="274.32" x2="165.1" y2="279.4" width="0.1524" layer="91"/>
 <pinref part="SJ11" gate="1" pin="1"/>
-<wire x1="142.24" y1="279.4" x2="142.24" y2="284.48" width="0.1524" layer="91"/>
-<junction x="142.24" y="279.4"/>
+<wire x1="165.1" y1="279.4" x2="165.1" y2="284.48" width="0.1524" layer="91"/>
+<junction x="165.1" y="279.4"/>
 <pinref part="U$11" gate="G$1" pin="PIN-2"/>
-<wire x1="139.7" y1="274.32" x2="142.24" y2="274.32" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="274.32" x2="165.1" y2="274.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$15" class="0">
 <segment>
 <pinref part="D12" gate="G$1" pin="A"/>
-<wire x1="142.24" y1="248.92" x2="142.24" y2="251.46" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="248.92" x2="165.1" y2="251.46" width="0.1524" layer="91"/>
 <pinref part="SJ12" gate="1" pin="1"/>
-<wire x1="142.24" y1="251.46" x2="142.24" y2="256.54" width="0.1524" layer="91"/>
-<junction x="142.24" y="251.46"/>
+<wire x1="165.1" y1="251.46" x2="165.1" y2="256.54" width="0.1524" layer="91"/>
+<junction x="165.1" y="251.46"/>
 <pinref part="U$15" gate="G$1" pin="PIN-2"/>
-<wire x1="139.7" y1="248.92" x2="142.24" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="248.92" x2="165.1" y2="248.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="COL3" class="0">
 <segment>
-<pinref part="D12" gate="G$1" pin="K"/>
-<pinref part="SJ12" gate="1" pin="2"/>
-<wire x1="152.4" y1="251.46" x2="152.4" y2="256.54" width="0.1524" layer="91"/>
-<pinref part="SJ11" gate="1" pin="2"/>
-<pinref part="D11" gate="G$1" pin="K"/>
-<wire x1="152.4" y1="284.48" x2="152.4" y2="279.4" width="0.1524" layer="91"/>
-<pinref part="D10" gate="G$1" pin="K"/>
-<pinref part="SJ10" gate="1" pin="2"/>
-<wire x1="152.4" y1="307.34" x2="152.4" y2="312.42" width="0.1524" layer="91"/>
 <pinref part="D9" gate="G$1" pin="K"/>
-<wire x1="152.4" y1="312.42" x2="152.4" y2="335.28" width="0.1524" layer="91"/>
-<junction x="152.4" y="312.42"/>
 <pinref part="SJ9" gate="1" pin="2"/>
-<wire x1="152.4" y1="340.36" x2="152.4" y2="335.28" width="0.1524" layer="91"/>
-<junction x="152.4" y="335.28"/>
-<wire x1="152.4" y1="340.36" x2="152.4" y2="347.98" width="0.1524" layer="91"/>
-<junction x="152.4" y="340.36"/>
-<wire x1="152.4" y1="284.48" x2="152.4" y2="307.34" width="0.1524" layer="91"/>
-<junction x="152.4" y="284.48"/>
-<junction x="152.4" y="307.34"/>
-<wire x1="152.4" y1="256.54" x2="152.4" y2="279.4" width="0.1524" layer="91"/>
-<junction x="152.4" y="256.54"/>
-<junction x="152.4" y="279.4"/>
-<label x="152.4" y="347.98" size="1.778" layer="95" rot="R90" xref="yes"/>
+<wire x1="175.26" y1="340.36" x2="175.26" y2="337.82" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="337.82" x2="175.26" y2="335.28" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="340.36" x2="175.26" y2="347.98" width="0.1524" layer="91"/>
+<junction x="175.26" y="340.36"/>
+<label x="175.26" y="347.98" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="SJ10" gate="1" pin="2"/>
+<pinref part="D10" gate="G$1" pin="K"/>
+<wire x1="175.26" y1="307.34" x2="175.26" y2="309.88" width="0.1524" layer="91"/>
+<pinref part="D11" gate="G$1" pin="K"/>
+<pinref part="SJ11" gate="1" pin="2"/>
+<wire x1="175.26" y1="309.88" x2="175.26" y2="312.42" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="284.48" x2="175.26" y2="281.94" width="0.1524" layer="91"/>
+<pinref part="SJ12" gate="1" pin="2"/>
+<pinref part="D12" gate="G$1" pin="K"/>
+<wire x1="175.26" y1="281.94" x2="175.26" y2="279.4" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="251.46" x2="175.26" y2="254" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="254" x2="175.26" y2="256.54" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="254" x2="180.34" y2="254" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="254" x2="180.34" y2="281.94" width="0.1524" layer="91"/>
+<junction x="175.26" y="254"/>
+<wire x1="180.34" y1="281.94" x2="180.34" y2="309.88" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="309.88" x2="180.34" y2="337.82" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="337.82" x2="180.34" y2="347.98" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="281.94" x2="180.34" y2="281.94" width="0.1524" layer="91"/>
+<junction x="175.26" y="281.94"/>
+<junction x="180.34" y="281.94"/>
+<wire x1="175.26" y1="309.88" x2="180.34" y2="309.88" width="0.1524" layer="91"/>
+<junction x="175.26" y="309.88"/>
+<junction x="180.34" y="309.88"/>
+<wire x1="175.26" y1="337.82" x2="180.34" y2="337.82" width="0.1524" layer="91"/>
+<junction x="175.26" y="337.82"/>
+<junction x="180.34" y="337.82"/>
 </segment>
 <segment>
 <pinref part="U$17" gate="G$1" pin="PC6"/>
@@ -11245,84 +11265,92 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 <net name="N$17" class="0">
 <segment>
 <pinref part="D10" gate="G$1" pin="A"/>
-<wire x1="142.24" y1="304.8" x2="142.24" y2="307.34" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="304.8" x2="165.1" y2="307.34" width="0.1524" layer="91"/>
 <pinref part="SJ10" gate="1" pin="1"/>
-<wire x1="142.24" y1="307.34" x2="142.24" y2="312.42" width="0.1524" layer="91"/>
-<junction x="142.24" y="307.34"/>
-<wire x1="142.24" y1="304.8" x2="139.7" y2="304.8" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="307.34" x2="165.1" y2="312.42" width="0.1524" layer="91"/>
+<junction x="165.1" y="307.34"/>
+<wire x1="165.1" y1="304.8" x2="162.56" y2="304.8" width="0.1524" layer="91"/>
 <pinref part="U$7" gate="G$1" pin="PIN-2"/>
 </segment>
 </net>
 <net name="N$19" class="0">
 <segment>
 <pinref part="D9" gate="G$1" pin="A"/>
-<wire x1="142.24" y1="335.28" x2="142.24" y2="332.74" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="335.28" x2="165.1" y2="332.74" width="0.1524" layer="91"/>
 <pinref part="SJ9" gate="1" pin="1"/>
-<wire x1="142.24" y1="340.36" x2="142.24" y2="335.28" width="0.1524" layer="91"/>
-<junction x="142.24" y="335.28"/>
+<wire x1="165.1" y1="340.36" x2="165.1" y2="335.28" width="0.1524" layer="91"/>
+<junction x="165.1" y="335.28"/>
 <pinref part="U$3" gate="G$1" pin="PIN-2"/>
-<wire x1="139.7" y1="332.74" x2="142.24" y2="332.74" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="332.74" x2="165.1" y2="332.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$20" class="0">
 <segment>
 <pinref part="D5" gate="G$1" pin="A"/>
-<wire x1="111.76" y1="248.92" x2="111.76" y2="251.46" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="248.92" x2="124.46" y2="251.46" width="0.1524" layer="91"/>
 <pinref part="SJ5" gate="1" pin="1"/>
-<wire x1="111.76" y1="251.46" x2="111.76" y2="256.54" width="0.1524" layer="91"/>
-<junction x="111.76" y="251.46"/>
+<wire x1="124.46" y1="251.46" x2="124.46" y2="256.54" width="0.1524" layer="91"/>
+<junction x="124.46" y="251.46"/>
 <pinref part="U$14" gate="G$1" pin="PIN-2"/>
-<wire x1="106.68" y1="248.92" x2="111.76" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="248.92" x2="124.46" y2="248.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$22" class="0">
 <segment>
 <pinref part="D6" gate="G$1" pin="A"/>
-<wire x1="111.76" y1="274.32" x2="111.76" y2="279.4" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="274.32" x2="124.46" y2="279.4" width="0.1524" layer="91"/>
 <pinref part="SJ6" gate="1" pin="1"/>
-<wire x1="111.76" y1="279.4" x2="111.76" y2="284.48" width="0.1524" layer="91"/>
-<junction x="111.76" y="279.4"/>
+<wire x1="124.46" y1="279.4" x2="124.46" y2="284.48" width="0.1524" layer="91"/>
+<junction x="124.46" y="279.4"/>
 <pinref part="U$10" gate="G$1" pin="PIN-2"/>
-<wire x1="106.68" y1="274.32" x2="111.76" y2="274.32" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="274.32" x2="124.46" y2="274.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$23" class="0">
 <segment>
 <pinref part="D7" gate="G$1" pin="A"/>
-<wire x1="111.76" y1="304.8" x2="111.76" y2="307.34" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="304.8" x2="124.46" y2="307.34" width="0.1524" layer="91"/>
 <pinref part="SJ7" gate="1" pin="1"/>
-<wire x1="111.76" y1="312.42" x2="111.76" y2="307.34" width="0.1524" layer="91"/>
-<junction x="111.76" y="307.34"/>
+<wire x1="124.46" y1="312.42" x2="124.46" y2="307.34" width="0.1524" layer="91"/>
+<junction x="124.46" y="307.34"/>
 <pinref part="U$6" gate="G$1" pin="PIN-2"/>
-<wire x1="106.68" y1="304.8" x2="111.76" y2="304.8" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="304.8" x2="124.46" y2="304.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="COL2" class="0">
 <segment>
-<pinref part="D7" gate="G$1" pin="K"/>
-<pinref part="SJ7" gate="1" pin="2"/>
-<wire x1="121.92" y1="307.34" x2="121.92" y2="312.42" width="0.1524" layer="91"/>
-<pinref part="D5" gate="G$1" pin="K"/>
-<pinref part="SJ5" gate="1" pin="2"/>
-<wire x1="121.92" y1="251.46" x2="121.92" y2="256.54" width="0.1524" layer="91"/>
-<pinref part="D6" gate="G$1" pin="K"/>
-<wire x1="121.92" y1="256.54" x2="121.92" y2="279.4" width="0.1524" layer="91"/>
-<junction x="121.92" y="256.54"/>
-<pinref part="SJ6" gate="1" pin="2"/>
-<wire x1="121.92" y1="279.4" x2="121.92" y2="284.48" width="0.1524" layer="91"/>
-<junction x="121.92" y="279.4"/>
-<wire x1="121.92" y1="307.34" x2="121.92" y2="284.48" width="0.1524" layer="91"/>
-<junction x="121.92" y="307.34"/>
-<junction x="121.92" y="284.48"/>
 <pinref part="D8" gate="G$1" pin="K"/>
 <pinref part="SJ8" gate="1" pin="2"/>
-<wire x1="121.92" y1="335.28" x2="121.92" y2="340.36" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="340.36" x2="121.92" y2="347.98" width="0.1524" layer="91"/>
-<junction x="121.92" y="340.36"/>
-<wire x1="121.92" y1="312.42" x2="121.92" y2="335.28" width="0.1524" layer="91"/>
-<junction x="121.92" y="312.42"/>
-<junction x="121.92" y="335.28"/>
-<label x="121.92" y="347.98" size="1.778" layer="95" rot="R90" xref="yes"/>
+<wire x1="134.62" y1="335.28" x2="134.62" y2="337.82" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="337.82" x2="134.62" y2="340.36" width="0.1524" layer="91"/>
+<label x="139.7" y="347.98" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="SJ7" gate="1" pin="2"/>
+<pinref part="D7" gate="G$1" pin="K"/>
+<wire x1="134.62" y1="307.34" x2="134.62" y2="309.88" width="0.1524" layer="91"/>
+<pinref part="SJ6" gate="1" pin="2"/>
+<pinref part="D6" gate="G$1" pin="K"/>
+<wire x1="134.62" y1="309.88" x2="134.62" y2="312.42" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="279.4" x2="134.62" y2="281.94" width="0.1524" layer="91"/>
+<pinref part="SJ5" gate="1" pin="2"/>
+<pinref part="D5" gate="G$1" pin="K"/>
+<wire x1="134.62" y1="281.94" x2="134.62" y2="284.48" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="251.46" x2="134.62" y2="254" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="254" x2="134.62" y2="256.54" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="254" x2="139.7" y2="254" width="0.1524" layer="91"/>
+<junction x="134.62" y="254"/>
+<wire x1="139.7" y1="254" x2="139.7" y2="281.94" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="281.94" x2="139.7" y2="309.88" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="309.88" x2="139.7" y2="337.82" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="337.82" x2="139.7" y2="347.98" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="281.94" x2="139.7" y2="281.94" width="0.1524" layer="91"/>
+<junction x="134.62" y="281.94"/>
+<junction x="139.7" y="281.94"/>
+<wire x1="134.62" y1="309.88" x2="139.7" y2="309.88" width="0.1524" layer="91"/>
+<junction x="134.62" y="309.88"/>
+<junction x="139.7" y="309.88"/>
+<wire x1="134.62" y1="337.82" x2="139.7" y2="337.82" width="0.1524" layer="91"/>
+<junction x="134.62" y="337.82"/>
+<junction x="139.7" y="337.82"/>
 </segment>
 <segment>
 <pinref part="U$17" gate="G$1" pin="PB6(ADC13)"/>
@@ -11333,12 +11361,12 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 <net name="N$25" class="0">
 <segment>
 <pinref part="D8" gate="G$1" pin="A"/>
-<wire x1="111.76" y1="335.28" x2="111.76" y2="332.74" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="335.28" x2="124.46" y2="332.74" width="0.1524" layer="91"/>
 <pinref part="SJ8" gate="1" pin="1"/>
-<wire x1="111.76" y1="335.28" x2="111.76" y2="340.36" width="0.1524" layer="91"/>
-<junction x="111.76" y="335.28"/>
+<wire x1="124.46" y1="335.28" x2="124.46" y2="340.36" width="0.1524" layer="91"/>
+<junction x="124.46" y="335.28"/>
 <pinref part="U$2" gate="G$1" pin="PIN-2"/>
-<wire x1="111.76" y1="332.74" x2="106.68" y2="332.74" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="332.74" x2="119.38" y2="332.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -11349,16 +11377,6 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 <wire x1="78.74" y1="251.46" x2="78.74" y2="256.54" width="0.1524" layer="91"/>
 <junction x="78.74" y="251.46"/>
 <pinref part="U$13" gate="G$1" pin="PIN-2"/>
-</segment>
-</net>
-<net name="N$18" class="0">
-<segment>
-<pinref part="D3" gate="G$1" pin="A"/>
-<pinref part="SJ3" gate="1" pin="1"/>
-<wire x1="78.74" y1="279.4" x2="78.74" y2="284.48" width="0.1524" layer="91"/>
-<pinref part="U$9" gate="G$1" pin="PIN-2"/>
-<wire x1="78.74" y1="274.32" x2="78.74" y2="279.4" width="0.1524" layer="91"/>
-<junction x="78.74" y="279.4"/>
 </segment>
 </net>
 <net name="N$21" class="0">
@@ -11386,28 +11404,36 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 <segment>
 <pinref part="SJ1" gate="1" pin="2"/>
 <pinref part="D1" gate="G$1" pin="K"/>
-<wire x1="88.9" y1="340.36" x2="88.9" y2="335.28" width="0.1524" layer="91"/>
-<pinref part="SJ2" gate="1" pin="2"/>
-<wire x1="88.9" y1="335.28" x2="88.9" y2="312.42" width="0.1524" layer="91"/>
-<junction x="88.9" y="335.28"/>
-<pinref part="D4" gate="G$1" pin="K"/>
-<pinref part="SJ4" gate="1" pin="2"/>
-<wire x1="88.9" y1="251.46" x2="88.9" y2="256.54" width="0.1524" layer="91"/>
-<pinref part="D3" gate="G$1" pin="K"/>
-<wire x1="88.9" y1="256.54" x2="88.9" y2="279.4" width="0.1524" layer="91"/>
-<junction x="88.9" y="256.54"/>
+<wire x1="88.9" y1="340.36" x2="88.9" y2="337.82" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="337.82" x2="88.9" y2="335.28" width="0.1524" layer="91"/>
 <pinref part="SJ3" gate="1" pin="2"/>
-<wire x1="88.9" y1="279.4" x2="88.9" y2="284.48" width="0.1524" layer="91"/>
-<junction x="88.9" y="279.4"/>
+<pinref part="D3" gate="G$1" pin="K"/>
+<wire x1="88.9" y1="284.48" x2="88.9" y2="281.94" width="0.1524" layer="91"/>
 <pinref part="D2" gate="G$1" pin="K"/>
-<wire x1="88.9" y1="284.48" x2="88.9" y2="307.34" width="0.1524" layer="91"/>
-<junction x="88.9" y="284.48"/>
-<wire x1="88.9" y1="312.42" x2="88.9" y2="307.34" width="0.1524" layer="91"/>
-<junction x="88.9" y="312.42"/>
-<junction x="88.9" y="307.34"/>
-<wire x1="88.9" y1="340.36" x2="88.9" y2="347.98" width="0.1524" layer="91"/>
-<junction x="88.9" y="340.36"/>
-<label x="88.9" y="347.98" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="SJ2" gate="1" pin="2"/>
+<wire x1="88.9" y1="281.94" x2="88.9" y2="279.4" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="312.42" x2="88.9" y2="309.88" width="0.1524" layer="91"/>
+<pinref part="SJ4" gate="1" pin="2"/>
+<pinref part="D4" gate="G$1" pin="K"/>
+<wire x1="88.9" y1="309.88" x2="88.9" y2="307.34" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="251.46" x2="88.9" y2="254" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="254" x2="88.9" y2="256.54" width="0.1524" layer="91"/>
+<junction x="88.9" y="254"/>
+<wire x1="88.9" y1="254" x2="93.98" y2="254" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="254" x2="93.98" y2="281.94" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="281.94" x2="93.98" y2="309.88" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="309.88" x2="93.98" y2="337.82" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="337.82" x2="93.98" y2="347.98" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="309.88" x2="93.98" y2="309.88" width="0.1524" layer="91"/>
+<junction x="88.9" y="309.88"/>
+<junction x="93.98" y="309.88"/>
+<wire x1="88.9" y1="281.94" x2="93.98" y2="281.94" width="0.1524" layer="91"/>
+<junction x="88.9" y="281.94"/>
+<junction x="93.98" y="281.94"/>
+<wire x1="88.9" y1="337.82" x2="93.98" y2="337.82" width="0.1524" layer="91"/>
+<junction x="88.9" y="337.82"/>
+<junction x="93.98" y="337.82"/>
+<label x="93.98" y="347.98" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$17" gate="G$1" pin="PB5(ADC12)"/>
@@ -11417,19 +11443,19 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 </net>
 <net name="ROW3" class="0">
 <segment>
-<wire x1="172.72" y1="264.16" x2="139.7" y2="264.16" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="264.16" x2="106.68" y2="264.16" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="264.16" x2="78.74" y2="264.16" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="264.16" x2="162.56" y2="264.16" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="264.16" x2="119.38" y2="264.16" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="264.16" x2="78.74" y2="264.16" width="0.1524" layer="91"/>
 <label x="63.5" y="264.16" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="U$10" gate="G$1" pin="PIN-1"/>
 <wire x1="78.74" y1="264.16" x2="63.5" y2="264.16" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="269.24" x2="106.68" y2="264.16" width="0.1524" layer="91"/>
-<junction x="106.68" y="264.16"/>
+<wire x1="119.38" y1="269.24" x2="119.38" y2="264.16" width="0.1524" layer="91"/>
+<junction x="119.38" y="264.16"/>
 <pinref part="U$11" gate="G$1" pin="PIN-1"/>
-<wire x1="139.7" y1="269.24" x2="139.7" y2="264.16" width="0.1524" layer="91"/>
-<junction x="139.7" y="264.16"/>
+<wire x1="162.56" y1="269.24" x2="162.56" y2="264.16" width="0.1524" layer="91"/>
+<junction x="162.56" y="264.16"/>
 <pinref part="U$12" gate="G$1" pin="PIN-1"/>
-<wire x1="172.72" y1="269.24" x2="172.72" y2="264.16" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="269.24" x2="205.74" y2="264.16" width="0.1524" layer="91"/>
 <pinref part="U$9" gate="G$1" pin="PIN-1"/>
 <wire x1="78.74" y1="269.24" x2="78.74" y2="264.16" width="0.1524" layer="91"/>
 <junction x="78.74" y="264.16"/>
@@ -11442,22 +11468,22 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 </net>
 <net name="ROW4" class="0">
 <segment>
-<wire x1="170.18" y1="236.22" x2="139.7" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="236.22" x2="106.68" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="236.22" x2="78.74" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="236.22" x2="162.56" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="236.22" x2="119.38" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="236.22" x2="78.74" y2="236.22" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="236.22" x2="63.5" y2="236.22" width="0.1524" layer="91"/>
 <label x="63.5" y="236.22" size="1.778" layer="95" rot="R180" xref="yes"/>
 <wire x1="78.74" y1="243.84" x2="78.74" y2="236.22" width="0.1524" layer="91"/>
 <junction x="78.74" y="236.22"/>
 <pinref part="U$13" gate="G$1" pin="PIN-1"/>
 <pinref part="U$16" gate="G$1" pin="PIN-1"/>
-<wire x1="170.18" y1="243.84" x2="170.18" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="243.84" x2="203.2" y2="236.22" width="0.1524" layer="91"/>
 <pinref part="U$14" gate="G$1" pin="PIN-1"/>
-<wire x1="106.68" y1="243.84" x2="106.68" y2="236.22" width="0.1524" layer="91"/>
-<junction x="106.68" y="236.22"/>
+<wire x1="119.38" y1="243.84" x2="119.38" y2="236.22" width="0.1524" layer="91"/>
+<junction x="119.38" y="236.22"/>
 <pinref part="U$15" gate="G$1" pin="PIN-1"/>
-<wire x1="139.7" y1="236.22" x2="139.7" y2="243.84" width="0.1524" layer="91"/>
-<junction x="139.7" y="236.22"/>
+<wire x1="162.56" y1="236.22" x2="162.56" y2="243.84" width="0.1524" layer="91"/>
+<junction x="162.56" y="236.22"/>
 </segment>
 <segment>
 <pinref part="U$17" gate="G$1" pin="PB4(ADC11)"/>
@@ -11988,6 +12014,16 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 <wire x1="-162.56" y1="289.56" x2="-162.56" y2="287.02" width="0.1524" layer="91"/>
 <pinref part="J5" gate="J1" pin="CC2"/>
 <pinref part="R5" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="D3" gate="G$1" pin="A"/>
+<pinref part="U$9" gate="G$1" pin="PIN-2"/>
+<wire x1="78.74" y1="279.4" x2="78.74" y2="274.32" width="0.1524" layer="91"/>
+<pinref part="SJ3" gate="1" pin="1"/>
+<wire x1="78.74" y1="279.4" x2="78.74" y2="284.48" width="0.1524" layer="91"/>
+<junction x="78.74" y="279.4"/>
 </segment>
 </net>
 </nets>
