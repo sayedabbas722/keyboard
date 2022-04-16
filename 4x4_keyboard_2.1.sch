@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -10602,7 +10603,7 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 <part name="GND10" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND16" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND17" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="SV2" library="con-lstb" deviceset="MA05-1" device=""/>
+<part name="IN" library="con-lstb" deviceset="MA05-1" device=""/>
 <part name="C7" library="rcl" deviceset="C-EU" device="C0603" value="10uF"/>
 <part name="GND18" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
@@ -10660,6 +10661,9 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 <part name="H2" library="holes" deviceset="MOUNT-HOLE" device="3.3"/>
 <part name="H6" library="holes" deviceset="MOUNT-HOLE" device="3.3"/>
 <part name="H5" library="holes" deviceset="MOUNT-HOLE" device="3.3"/>
+<part name="LED2" library="led" deviceset="LED" device="SML0805" value="Green"/>
+<part name="R8" library="audio amplifier example" deviceset="R-US_" device="R0603" value="1K"/>
+<part name="SUPPLY3" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10867,7 +10871,7 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 <instance part="GND17" gate="1" x="25.4" y="246.38" smashed="yes" rot="R180">
 <attribute name="VALUE" x="25.4" y="249.174" size="1.778" layer="96" rot="R180" align="top-center"/>
 </instance>
-<instance part="SV2" gate="G$1" x="-83.82" y="274.32" smashed="yes">
+<instance part="IN" gate="G$1" x="-83.82" y="274.32" smashed="yes">
 <attribute name="VALUE" x="-85.09" y="264.16" size="1.778" layer="96"/>
 <attribute name="NAME" x="-85.09" y="282.702" size="1.778" layer="95"/>
 </instance>
@@ -11055,6 +11059,16 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 <instance part="H5" gate="G$1" x="-129.54" y="246.38" smashed="yes">
 <attribute name="NAME" x="-127.508" y="246.9642" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-127.508" y="243.9162" size="1.778" layer="96"/>
+</instance>
+<instance part="LED2" gate="G$1" x="48.26" y="347.98" smashed="yes">
+<attribute name="NAME" x="51.816" y="343.408" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="53.975" y="343.408" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R8" gate="G$1" x="48.26" y="358.14" smashed="yes" rot="R270">
+<attribute name="NAME" x="49.7586" y="361.95" size="1.778" layer="95" rot="R270"/>
+</instance>
+<instance part="SUPPLY3" gate="G$1" x="48.26" y="365.76" smashed="yes" rot="R90">
+<attribute name="VALUE" x="48.26" y="368.046" size="1.778" layer="96" rot="R180" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -11544,7 +11558,7 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 <pinref part="GND17" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="SV2" gate="G$1" pin="5"/>
+<pinref part="IN" gate="G$1" pin="5"/>
 <wire x1="-76.2" y1="279.4" x2="-71.12" y2="279.4" width="0.1524" layer="91"/>
 <label x="-71.12" y="279.4" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -11729,6 +11743,11 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 <wire x1="17.78" y1="365.76" x2="17.78" y2="360.68" width="0.1524" layer="91"/>
 <junction x="17.78" y="360.68"/>
 </segment>
+<segment>
+<pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="48.26" y1="363.22" x2="48.26" y2="365.76" width="0.1524" layer="91"/>
+<pinref part="SUPPLY3" gate="G$1" pin="VCC"/>
+</segment>
 </net>
 <net name="AREF" class="0">
 <segment>
@@ -11744,7 +11763,7 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 </net>
 <net name="RESET" class="0">
 <segment>
-<pinref part="SV2" gate="G$1" pin="4"/>
+<pinref part="IN" gate="G$1" pin="4"/>
 <wire x1="-76.2" y1="276.86" x2="-71.12" y2="276.86" width="0.1524" layer="91"/>
 <label x="-71.12" y="276.86" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -11886,7 +11905,7 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 </net>
 <net name="MISO" class="0">
 <segment>
-<pinref part="SV2" gate="G$1" pin="1"/>
+<pinref part="IN" gate="G$1" pin="1"/>
 <wire x1="-76.2" y1="269.24" x2="-71.12" y2="269.24" width="0.1524" layer="91"/>
 <label x="-71.12" y="269.24" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -11898,7 +11917,7 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 </net>
 <net name="MOSI" class="0">
 <segment>
-<pinref part="SV2" gate="G$1" pin="3"/>
+<pinref part="IN" gate="G$1" pin="3"/>
 <wire x1="-76.2" y1="274.32" x2="-71.12" y2="274.32" width="0.1524" layer="91"/>
 <label x="-71.12" y="274.32" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -11910,7 +11929,7 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 </net>
 <net name="SCK" class="0">
 <segment>
-<pinref part="SV2" gate="G$1" pin="2"/>
+<pinref part="IN" gate="G$1" pin="2"/>
 <wire x1="-71.12" y1="271.78" x2="-76.2" y2="271.78" width="0.1524" layer="91"/>
 <label x="-71.12" y="271.78" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -12020,6 +12039,27 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 <pinref part="SJ3" gate="1" pin="1"/>
 <wire x1="78.74" y1="279.4" x2="78.74" y2="284.48" width="0.1524" layer="91"/>
 <junction x="78.74" y="279.4"/>
+</segment>
+</net>
+<net name="PROG_LED" class="0">
+<segment>
+<wire x1="48.26" y1="340.36" x2="48.26" y2="342.9" width="0.1524" layer="91"/>
+<pinref part="LED2" gate="G$1" pin="C"/>
+<label x="48.26" y="340.36" size="1.778" layer="95" rot="R270"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="LED2" gate="G$1" pin="A"/>
+<pinref part="R8" gate="G$1" pin="2"/>
+<wire x1="48.26" y1="350.52" x2="48.26" y2="353.06" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PRO_LED" class="0">
+<segment>
+<pinref part="U$17" gate="G$1" pin="PB7"/>
+<wire x1="12.7" y1="279.4" x2="17.78" y2="279.4" width="0.1524" layer="91"/>
+<label x="17.78" y="279.4" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>

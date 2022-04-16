@@ -11048,13 +11048,13 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 <attribute name="NAME" x="-102.108" y="257.1242" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-102.108" y="254.0762" size="1.778" layer="96"/>
 </instance>
-<instance part="H6" gate="G$1" x="-104.14" y="243.84" smashed="yes">
-<attribute name="NAME" x="-102.108" y="244.4242" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-102.108" y="241.3762" size="1.778" layer="96"/>
+<instance part="H6" gate="G$1" x="-104.14" y="248.92" smashed="yes">
+<attribute name="NAME" x="-102.108" y="249.5042" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-102.108" y="246.4562" size="1.778" layer="96"/>
 </instance>
-<instance part="H5" gate="G$1" x="-129.54" y="241.3" smashed="yes">
-<attribute name="NAME" x="-127.508" y="241.8842" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-127.508" y="238.8362" size="1.778" layer="96"/>
+<instance part="H5" gate="G$1" x="-129.54" y="246.38" smashed="yes">
+<attribute name="NAME" x="-127.508" y="246.9642" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-127.508" y="243.9162" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
