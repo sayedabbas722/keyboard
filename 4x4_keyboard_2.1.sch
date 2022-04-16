@@ -10651,7 +10651,7 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 <part name="GND19" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="V_USB" device=""/>
 <part name="JP14" library="SparkFun-Connectors" deviceset="USB_SOLDER_PADS" device=""/>
-<part name="J5" library="USBC" deviceset="USB_C" device="5"/>
+<part name="USB_C" library="USBC" deviceset="USB_C" device="5"/>
 <part name="R1" library="audio amplifier example" deviceset="R-US_" device="R0603" value="5.1k"/>
 <part name="R2" library="audio amplifier example" deviceset="R-US_" device="R0603" value="5.1k"/>
 <part name="R3" library="audio amplifier example" deviceset="R-US_" device="R0603" value="5.1k"/>
@@ -11024,7 +11024,7 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 <attribute name="VALUE" x="-185.42" y="322.326" size="1.778" layer="96" font="vector" rot="MR180"/>
 <attribute name="NAME" x="-185.42" y="306.832" size="1.778" layer="95" font="vector" rot="MR180"/>
 </instance>
-<instance part="J5" gate="J1" x="-185.42" y="292.1" smashed="yes">
+<instance part="USB_C" gate="J1" x="-185.42" y="292.1" smashed="yes">
 <attribute name="VALUE" x="-187.96" y="279.654" size="1.778" layer="96" font="vector" rot="MR180" align="top-left"/>
 <attribute name="NAME" x="-187.96" y="302.514" size="1.778" layer="95" font="vector"/>
 </instance>
@@ -11610,7 +11610,7 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 <wire x1="-175.26" y1="309.88" x2="-170.18" y2="309.88" width="0.1524" layer="91"/>
 <wire x1="-170.18" y1="309.88" x2="-170.18" y2="284.48" width="0.1524" layer="91"/>
 <junction x="-170.18" y="284.48"/>
-<pinref part="J5" gate="J1" pin="GND"/>
+<pinref part="USB_C" gate="J1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="GND15" gate="1" pin="GND"/>
@@ -11676,7 +11676,7 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 <wire x1="-162.56" y1="317.5" x2="-162.56" y2="299.72" width="0.1524" layer="91"/>
 <wire x1="-175.26" y1="317.5" x2="-162.56" y2="317.5" width="0.1524" layer="91"/>
 <junction x="-162.56" y="317.5"/>
-<pinref part="J5" gate="J1" pin="VBUS"/>
+<pinref part="USB_C" gate="J1" pin="VBUS"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -11980,7 +11980,7 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 <wire x1="-175.26" y1="314.96" x2="-165.1" y2="314.96" width="0.1524" layer="91"/>
 <wire x1="-165.1" y1="314.96" x2="-165.1" y2="294.64" width="0.1524" layer="91"/>
 <junction x="-165.1" y="294.64"/>
-<pinref part="J5" gate="J1" pin="D-"/>
+<pinref part="USB_C" gate="J1" pin="D-"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -11992,7 +11992,7 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 <wire x1="-175.26" y1="312.42" x2="-167.64" y2="312.42" width="0.1524" layer="91"/>
 <wire x1="-167.64" y1="312.42" x2="-167.64" y2="297.18" width="0.1524" layer="91"/>
 <junction x="-167.64" y="297.18"/>
-<pinref part="J5" gate="J1" pin="D+"/>
+<pinref part="USB_C" gate="J1" pin="D+"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -12000,7 +12000,7 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 <segment>
 <wire x1="-172.72" y1="292.1" x2="-154.94" y2="292.1" width="0.1524" layer="91"/>
 <wire x1="-154.94" y1="292.1" x2="-154.94" y2="287.02" width="0.1524" layer="91"/>
-<pinref part="J5" gate="J1" pin="CC1"/>
+<pinref part="USB_C" gate="J1" pin="CC1"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -12008,7 +12008,7 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 <segment>
 <wire x1="-172.72" y1="289.56" x2="-162.56" y2="289.56" width="0.1524" layer="91"/>
 <wire x1="-162.56" y1="289.56" x2="-162.56" y2="287.02" width="0.1524" layer="91"/>
-<pinref part="J5" gate="J1" pin="CC2"/>
+<pinref part="USB_C" gate="J1" pin="CC2"/>
 <pinref part="R5" gate="G$1" pin="1"/>
 </segment>
 </net>

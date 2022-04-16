@@ -11048,13 +11048,13 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 <attribute name="NAME" x="-102.108" y="257.1242" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-102.108" y="254.0762" size="1.778" layer="96"/>
 </instance>
-<instance part="H6" gate="G$1" x="-104.14" y="243.84" smashed="yes">
-<attribute name="NAME" x="-102.108" y="244.4242" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-102.108" y="241.3762" size="1.778" layer="96"/>
+<instance part="H6" gate="G$1" x="-104.14" y="248.92" smashed="yes">
+<attribute name="NAME" x="-102.108" y="249.5042" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-102.108" y="246.4562" size="1.778" layer="96"/>
 </instance>
-<instance part="H5" gate="G$1" x="-129.54" y="241.3" smashed="yes">
-<attribute name="NAME" x="-127.508" y="241.8842" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-127.508" y="238.8362" size="1.778" layer="96"/>
+<instance part="H5" gate="G$1" x="-129.54" y="246.38" smashed="yes">
+<attribute name="NAME" x="-127.508" y="246.9642" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-127.508" y="243.9162" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -11138,9 +11138,7 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 <pinref part="D16" gate="G$1" pin="K"/>
 <wire x1="218.44" y1="340.36" x2="218.44" y2="337.82" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="337.82" x2="218.44" y2="335.28" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="340.36" x2="218.44" y2="347.98" width="0.1524" layer="91"/>
-<junction x="218.44" y="340.36"/>
-<label x="218.44" y="347.98" size="1.778" layer="95" rot="R90" xref="yes"/>
+<label x="226.06" y="347.98" size="1.778" layer="95" rot="R90" xref="yes"/>
 <pinref part="SJ15" gate="1" pin="2"/>
 <pinref part="D15" gate="G$1" pin="K"/>
 <wire x1="218.44" y1="307.34" x2="218.44" y2="309.88" width="0.1524" layer="91"/>
@@ -11225,9 +11223,7 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 <pinref part="SJ9" gate="1" pin="2"/>
 <wire x1="175.26" y1="340.36" x2="175.26" y2="337.82" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="337.82" x2="175.26" y2="335.28" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="340.36" x2="175.26" y2="347.98" width="0.1524" layer="91"/>
-<junction x="175.26" y="340.36"/>
-<label x="175.26" y="347.98" size="1.778" layer="95" rot="R90" xref="yes"/>
+<label x="180.34" y="347.98" size="1.778" layer="95" rot="R90" xref="yes"/>
 <pinref part="SJ10" gate="1" pin="2"/>
 <pinref part="D10" gate="G$1" pin="K"/>
 <wire x1="175.26" y1="307.34" x2="175.26" y2="309.88" width="0.1524" layer="91"/>
